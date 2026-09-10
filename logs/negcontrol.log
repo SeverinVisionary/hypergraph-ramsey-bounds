@@ -1,0 +1,12 @@
+class     Z_63 : <2,11> order 1134
+gens      SHA-256 9ce2c425bcfab78cc4f4e15a7b9e98ddd45537df50c3739229f3b6715e1fd83b
+instance  50 vars, 54785 clauses
+
+  full           54785 clauses -> UNSAT checked=True route='proof replay' steps=30939
+  proof replayed below: 30939 steps, sha256 0ec7ff8226fcbcbb
+  keep~0.90      49292 clauses -> UNSAT checked=True route='proof replay' steps=27942  original proof replays here: False
+  keep~0.70      38273 clauses -> SAT   checked=False route=None steps=0  original proof replays here: False
+  keep~0.50      27303 clauses -> SAT   checked=False route=None steps=0  original proof replays here: False
+  keep~0.30      16474 clauses -> SAT   checked=False route=None steps=0  original proof replays here: False
+
+GOOD: the full instance certifies by proof replay, weakening it far enough turns it satisfiable, no satisfiable instance was certified, and the original proof does NOT replay against any satisfiable weakening

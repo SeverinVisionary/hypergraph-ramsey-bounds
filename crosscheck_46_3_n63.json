@@ -1,0 +1,82 @@
+[
+ {
+  "name": "Z_63 : <2,5> order 2268",
+  "gens_sha": "15965a956c3cf2103215c0f7e6a7869df9500541d6662da127487f669288f77e",
+  "order": 2268,
+  "vars": 29,
+  "clauses": 14384,
+  "build_s": 16.1,
+  "Glucose3": {
+   "status": "UNSAT",
+   "s": 0.01
+  },
+  "Minisat22": {
+   "status": "UNSAT",
+   "s": 0.01
+  }
+ },
+ {
+  "name": "Z_63 : <4,5> order 1134",
+  "gens_sha": "7cbbdc22432c7eda857bb510cadeedd635ccca3ac02acf265942bab3545ea53b",
+  "order": 1134,
+  "vars": 49,
+  "clauses": 54060,
+  "build_s": 18.1,
+  "Glucose3": {
+   "status": "UNSAT",
+   "s": 0.04
+  },
+  "Minisat22": {
+   "status": "UNSAT",
+   "s": 0.04
+  }
+ },
+ {
+  "name": "Z_63 : <2,11> order 1134",
+  "gens_sha": "9ce2c425bcfab78cc4f4e15a7b9e98ddd45537df50c3739229f3b6715e1fd83b",
+  "order": 1134,
+  "vars": 50,
+  "clauses": 54785,
+  "build_s": 18.3,
+  "Glucose3": {
+   "status": "UNSAT",
+   "s": 0.04
+  },
+  "Minisat22": {
+   "status": "UNSAT",
+   "s": 0.04
+  }
+ },
+ {
+  "name": "Z_63 : <4,10> order 1134",
+  "gens_sha": "80e3c6cf3abfb41b21b881b000a1b4a1b794ff0c72befdb84b40aae8f8e19718",
+  "order": 1134,
+  "vars": 50,
+  "clauses": 54877,
+  "build_s": 18.2,
+  "Glucose3": {
+   "status": "UNSAT",
+   "s": 0.04
+  },
+  "Minisat22": {
+   "status": "UNSAT",
+   "s": 0.04
+  }
+ },
+ {
+  "name": "Z_63 : <2,31> order 756",
+  "gens_sha": "3890e9bc472a2c46650fa65811baea44bbbcaca04c1faa8834ddd6fc1a641a31",
+  "order": 756,
+  "vars": 63,
+  "clauses": 90594,
+  "build_s": 19.2,
+  "Glucose3": {
+   "status": "UNSAT",
+   "s": 0.07
+  },
+  "Minisat22": {
+   "status": "UNSAT",
+   "s": 0.07
+  }
+ }
+]

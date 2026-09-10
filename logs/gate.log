@@ -1,0 +1,9 @@
+$ python3 -c 'import search; search.known_answer_gate(budget_s=300.0)'
+  R(3,3)=6  n=5   -> SAT     want SAT      0.00s
+  R(3,3)=6  n=6   -> UNSAT   want UNSAT    0.00s
+  R(3,4)=9  n=8   -> SAT     want SAT      0.00s
+  R(3,4)=9  n=9   -> UNSAT   want UNSAT    0.06s
+  R(4,4;3)=13  n=12  -> SAT     want SAT      3.73s
+  R(4,4;3)=13  n=13  -> TIMEOUT want UNSAT  300.00s  (NOT reproduced within 300s -- a null of this search, not a result)
+  GATE PASSED on the two-sided published values; the k=3 UNSAT half is reported above, not assumed.
+

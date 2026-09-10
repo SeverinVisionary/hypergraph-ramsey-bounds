@@ -1,0 +1,148 @@
+[
+ {
+  "name": "Z_79 : C_78 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 2.15,
+  "empty_by_construction": [
+   13
+  ],
+  "n": 84,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 39,
+  "vars": 117,
+  "clauses": 1098,
+  "exactly_one_clauses": 156,
+  "distinct_per_colour": [
+   314,
+   314,
+   314
+  ],
+  "cliques": [
+   1929501,
+   1929501,
+   1929501
+  ],
+  "collapse": [
+   6144.9,
+   6144.9,
+   6144.9
+  ],
+  "translation_fast_path": false,
+  "order": 6162
+ },
+ {
+  "name": "Z_79 : C_39 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 2.14,
+  "empty_by_construction": [],
+  "n": 84,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 52,
+  "vars": 156,
+  "clauses": 2140,
+  "exactly_one_clauses": 208,
+  "distinct_per_colour": [
+   644,
+   644,
+   644
+  ],
+  "cliques": [
+   1929501,
+   1929501,
+   1929501
+  ],
+  "collapse": [
+   2996.1,
+   2996.1,
+   2996.1
+  ],
+  "translation_fast_path": false,
+  "order": 3081
+ },
+ {
+  "name": "Z_79 : C_26 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 2.25,
+  "empty_by_construction": [],
+  "n": 84,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 75,
+  "vars": 225,
+  "clauses": 3288,
+  "exactly_one_clauses": 300,
+  "distinct_per_colour": [
+   996,
+   996,
+   996
+  ],
+  "cliques": [
+   1929501,
+   1929501,
+   1929501
+  ],
+  "collapse": [
+   1937.2,
+   1937.2,
+   1937.2
+  ],
+  "translation_fast_path": false,
+  "order": 2054
+ },
+ {
+  "name": "Z_79 : C_13 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.05,
+  "build_s": 2.3,
+  "empty_by_construction": [],
+  "n": 84,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 112,
+  "vars": 336,
+  "clauses": 6118,
+  "exactly_one_clauses": 448,
+  "distinct_per_colour": [
+   1890,
+   1890,
+   1890
+  ],
+  "cliques": [
+   1929501,
+   1929501,
+   1929501
+  ],
+  "collapse": [
+   1020.9,
+   1020.9,
+   1020.9
+  ],
+  "translation_fast_path": false,
+  "order": 1027
+ }
+]

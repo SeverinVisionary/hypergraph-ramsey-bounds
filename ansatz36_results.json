@@ -1,0 +1,200 @@
+[
+ {
+  "name": "Hol(Z_34) + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.11,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 122,
+  "clauses": 1444,
+  "distinct_pos": 722,
+  "distinct_neg": 722,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 522.1,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 17,
+   "max": 544
+  },
+  "order": 544
+ },
+ {
+  "name": "Hol(Z_29) + 7 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.42,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 159,
+  "clauses": 1154,
+  "distinct_pos": 577,
+  "distinct_neg": 577,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 653.4,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 812
+  },
+  "order": 812
+ },
+ {
+  "name": "Hol(Z_36) + 0 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.21,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 195,
+  "clauses": 1994,
+  "distinct_pos": 997,
+  "distinct_neg": 997,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 378.1,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 9,
+   "max": 432
+  },
+  "order": 432
+ },
+ {
+  "name": "Hol(Z_32) + 4 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.12,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 207,
+  "clauses": 1964,
+  "distinct_pos": 982,
+  "distinct_neg": 982,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 383.9,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 512
+  },
+  "order": 512
+ },
+ {
+  "name": "Hol(Z_27) + 9 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 1.04,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 443,
+  "clauses": 2798,
+  "distinct_pos": 1399,
+  "distinct_neg": 1399,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 269.5,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 486
+  },
+  "order": 486
+ },
+ {
+  "name": "Hol(Z_28) + 8 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.86,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 481,
+  "clauses": 3774,
+  "distinct_pos": 1887,
+  "distinct_neg": 1887,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 199.8,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 336
+  },
+  "order": 336
+ },
+ {
+  "name": "Hol(Z_26) + 10 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 0.85,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 622,
+  "clauses": 4120,
+  "distinct_pos": 2060,
+  "distinct_neg": 2060,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 183.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 312
+  },
+  "order": 312
+ },
+ {
+  "name": "Hol(Z_23) + 13 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 1.09,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 1151,
+  "clauses": 5858,
+  "distinct_pos": 2929,
+  "distinct_neg": 2929,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 128.7,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 506
+  },
+  "order": 506
+ },
+ {
+  "name": "Hol(Z_24) + 12 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 0.72,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 1550,
+  "clauses": 11606,
+  "distinct_pos": 5803,
+  "distinct_neg": 5803,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 65.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 192
+  },
+  "order": 192
+ }
+]

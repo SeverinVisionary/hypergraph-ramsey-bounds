@@ -1,0 +1,11 @@
+witness      witness_n33.json
+declares     n=33 s=5 t=5 k=4  None
+certifies    R(5,5;4) >= 34
+sha256       9a82243a8b1f0f3decc99b4c85d3a892c2fc06f3394dff85b74bac02e95dec70
+
+checker 1: verify_scratch (explicit nested loops)
+  PASS: n=33: 40920 faces, 237336 five-sets, 0 monochromatic  =>  R(5,5;4) >= 34
+checker 2: independent_check (no rank arithmetic anywhere)
+  PASS: n=33 k=4: 40920 colours, 474672 cliques checked, 0 monochromatic  =>  R(5,5;4) >= 34
+
+OK: R(5,5;4) >= 34, two independent checkers, bound to sha256 9a82243a8b1f0f3d...

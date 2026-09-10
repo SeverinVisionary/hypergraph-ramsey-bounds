@@ -1,0 +1,199 @@
+21 group(s), cap 60s each
+  (0 already decided in ansatz_results.json, skipping those)
+  S_4 wr AGL(3,2) x S_3: 12 vars, 36 clauses (18035.1x collapse from 324632 cliques), built 0.5s
+    cross-check: brute force over 2^12 colourings agrees (UNSAT, 0.0s, 0 surviving colourings)
+    no S_4 wr AGL(3,2) x S_3-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  E_32 : P(2,3) x S_3: 14 vars, 46 clauses (14114.4x collapse from 324632 cliques), built 0.6s
+    cross-check: brute force over 2^14 colourings agrees (UNSAT, 0.001s, 0 surviving colourings)
+    no E_32 : P(2,3) x S_3-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  S_4 wr AGL(3,2): 22 vars, 72 clauses (9017.6x collapse from 324632 cliques), built 0.5s
+    no S_4 wr AGL(3,2)-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  E_32 : P(2,3): 24 vars, 90 clauses (7214.0x collapse from 324632 cliques), built 0.5s
+    no E_32 : P(2,3)-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  AGL(1,32) x S_3: 47 vars, 498 clauses (1303.7x collapse from 324632 cliques), built 0.5s
+    no AGL(1,32) x S_3-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  AGL(1,32): 59 vars, 678 clauses (957.6x collapse from 324632 cliques), built 0.4s
+    no AGL(1,32)-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  E_32 : U (Sylow 2 of AGL(5,2)): 86 vars, 460 clauses (1411.4x collapse from 324632 cliques), built 0.7s
+    no E_32 : U (Sylow 2 of AGL(5,2))-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  AGL(3,2): 101 vars, 804 clauses (807.5x collapse from 324632 cliques), built 0.5s
+    no AGL(3,2)-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  Hol(Z_34): 107 vars, 1230 clauses (527.9x collapse from 324632 cliques), built 0.5s
+    WITNESS at n=35 in 2.4s, verified on the full 52360-bit colouring => R(5,5;4) >= 36
+    witness written to witness_n35_Hol(Z_34).json
+  S_4 wr S_2: 133 vars, 1054 clauses (616.0x collapse from 324632 cliques), built 0.5s
+    no S_4 wr S_2-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  Hol(Z_32): 170 vars, 1624 clauses (399.8x collapse from 324632 cliques), built 0.5s
+    no Hol(Z_32)-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  AGL1_35_Hall5prime (C7 : Z35*): 338 vars, 3968 clauses (163.6x collapse from 324632 cliques), built 0.6s
+    no AGL1_35_Hall5prime (C7 : Z35*)-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  F_186 = C_31:C_6: 345 vars, 3784 clauses (171.6x collapse from 324632 cliques), built 0.5s
+  F_186 = C_31:C_6: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  A-Gamma-L(1,8): 365 vars, 4138 clauses (156.9x collapse from 324632 cliques), built 0.5s
+  A-Gamma-L(1,8): TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  PSL(3,2): 374 vars, 4164 clauses (155.9x collapse from 324632 cliques), built 0.5s
+  PSL(3,2): TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_33:(C_2 x C_2): 498 vars, 5454 clauses (119.0x collapse from 324632 cliques), built 0.6s
+  Z_33:(C_2 x C_2): TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  F_93 = C_31:C_3: 600 vars, 7116 clauses (91.2x collapse from 324632 cliques), built 0.6s
+  F_93 = C_31:C_3: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  S_4 x S_3: 601 vars, 5948 clauses (109.2x collapse from 324632 cliques), built 0.6s
+    no S_4 x S_3-invariant witness at n=35 (a null for THIS class only) (0.0s)
+  C7 : C12 (multiplier 2): 640 vars, 7796 clauses (83.3x collapse from 324632 cliques), built 0.6s
+  C7 : C12 (multiplier 2): TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  C7 : C12 (multiplier 3): 640 vars, 7796 clauses (83.3x collapse from 324632 cliques), built 0.7s
+  C7 : C12 (multiplier 3): TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  C7 : C12 (multipliers 4,6): 672 vars, 7928 clauses (81.9x collapse from 324632 cliques), built 0.7s
+  C7 : C12 (multipliers 4,6): TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+[
+ {
+  "name": "S_4 wr AGL(3,2) x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 12,
+  "clauses": 36
+ },
+ {
+  "name": "E_32 : P(2,3) x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 14,
+  "clauses": 46
+ },
+ {
+  "name": "S_4 wr AGL(3,2)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 22,
+  "clauses": 72
+ },
+ {
+  "name": "E_32 : P(2,3)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 24,
+  "clauses": 90
+ },
+ {
+  "name": "AGL(1,32) x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 47,
+  "clauses": 498
+ },
+ {
+  "name": "AGL(1,32)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 59,
+  "clauses": 678
+ },
+ {
+  "name": "E_32 : U (Sylow 2 of AGL(5,2))",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 86,
+  "clauses": 460
+ },
+ {
+  "name": "AGL(3,2)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 101,
+  "clauses": 804
+ },
+ {
+  "name": "Hol(Z_34)",
+  "status": "SAT",
+  "solve_s": 2.41,
+  "vars": 107,
+  "clauses": 1230
+ },
+ {
+  "name": "S_4 wr S_2",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 133,
+  "clauses": 1054
+ },
+ {
+  "name": "Hol(Z_32)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 170,
+  "clauses": 1624
+ },
+ {
+  "name": "AGL1_35_Hall5prime (C7 : Z35*)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 338,
+  "clauses": 3968
+ },
+ {
+  "name": "F_186 = C_31:C_6",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 345,
+  "clauses": null
+ },
+ {
+  "name": "A-Gamma-L(1,8)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 365,
+  "clauses": null
+ },
+ {
+  "name": "PSL(3,2)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 374,
+  "clauses": null
+ },
+ {
+  "name": "Z_33:(C_2 x C_2)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 498,
+  "clauses": null
+ },
+ {
+  "name": "F_93 = C_31:C_3",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 600,
+  "clauses": null
+ },
+ {
+  "name": "S_4 x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.02,
+  "vars": 601,
+  "clauses": 5948
+ },
+ {
+  "name": "C7 : C12 (multiplier 2)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 640,
+  "clauses": null
+ },
+ {
+  "name": "C7 : C12 (multiplier 3)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 640,
+  "clauses": null
+ },
+ {
+  "name": "C7 : C12 (multipliers 4,6)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 672,
+  "clauses": null
+ }
+]
+
+*** SAT: ['Hol(Z_34)'] ***
+EXIT 0

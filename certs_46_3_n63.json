@@ -1,0 +1,117 @@
+[
+ {
+  "status": "UNSAT",
+  "checked": true,
+  "steps": 0,
+  "additions": 0,
+  "deletions": 0,
+  "solver": "Glucose42",
+  "route": "unit propagation",
+  "name": "Z_63 : <2,5> order 2268",
+  "order": 2268,
+  "vars": 29,
+  "clauses": 14384,
+  "build_s": 16.1,
+  "certify_s": 0.1,
+  "gens_sha": "15965a956c3cf2103215c0f7e6a7869df9500541d6662da127487f669288f77e",
+  "problem": {
+   "k": 3,
+   "n": 63,
+   "s": 4,
+   "sizes": null,
+   "t": 6
+  }
+ },
+ {
+  "status": "UNSAT",
+  "checked": true,
+  "steps": 13975,
+  "additions": 2,
+  "deletions": 13973,
+  "solver": "Glucose42",
+  "route": "proof replay",
+  "name": "Z_63 : <4,5> order 1134",
+  "order": 1134,
+  "vars": 49,
+  "clauses": 54060,
+  "build_s": 81.1,
+  "certify_s": 3.9,
+  "gens_sha": "7cbbdc22432c7eda857bb510cadeedd635ccca3ac02acf265942bab3545ea53b",
+  "problem": {
+   "k": 3,
+   "n": 63,
+   "s": 4,
+   "sizes": null,
+   "t": 6
+  }
+ },
+ {
+  "status": "UNSAT",
+  "checked": true,
+  "steps": 30939,
+  "additions": 14,
+  "deletions": 30925,
+  "solver": "Glucose42",
+  "route": "proof replay",
+  "name": "Z_63 : <2,11> order 1134",
+  "order": 1134,
+  "vars": 50,
+  "clauses": 54785,
+  "build_s": 117.4,
+  "certify_s": 5.3,
+  "gens_sha": "9ce2c425bcfab78cc4f4e15a7b9e98ddd45537df50c3739229f3b6715e1fd83b",
+  "problem": {
+   "k": 3,
+   "n": 63,
+   "s": 4,
+   "sizes": null,
+   "t": 6
+  }
+ },
+ {
+  "status": "UNSAT",
+  "checked": true,
+  "steps": 42,
+  "additions": 42,
+  "deletions": 0,
+  "solver": "Glucose42",
+  "route": "proof replay",
+  "name": "Z_63 : <4,10> order 1134",
+  "order": 1134,
+  "vars": 50,
+  "clauses": 54877,
+  "build_s": 116.2,
+  "certify_s": 7.3,
+  "gens_sha": "80e3c6cf3abfb41b21b881b000a1b4a1b794ff0c72befdb84b40aae8f8e19718",
+  "problem": {
+   "k": 3,
+   "n": 63,
+   "s": 4,
+   "sizes": null,
+   "t": 6
+  }
+ },
+ {
+  "status": "UNSAT",
+  "checked": true,
+  "steps": 5250,
+  "additions": 9,
+  "deletions": 5241,
+  "solver": "Glucose42",
+  "route": "proof replay",
+  "name": "Z_63 : <2,31> order 756",
+  "order": 756,
+  "vars": 63,
+  "clauses": 90594,
+  "build_s": 122.8,
+  "certify_s": 9.2,
+  "gens_sha": "3890e9bc472a2c46650fa65811baea44bbbcaca04c1faa8834ddd6fc1a641a31",
+  "problem": {
+   "k": 3,
+   "n": 63,
+   "s": 4,
+   "sizes": null,
+   "t": 6
+  }
+ }
+]

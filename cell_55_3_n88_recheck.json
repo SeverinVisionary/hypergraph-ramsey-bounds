@@ -1,0 +1,62 @@
+[
+ {
+  "name": "Z_88 : <3,17> order 1760",
+  "status": "UNSAT",
+  "solve_s": 60.27,
+  "build_s": 4.5,
+  "cap_s": null,
+  "brute": null,
+  "n": 88,
+  "vars": 76,
+  "clauses": 43972,
+  "distinct_pos": 21986,
+  "distinct_neg": 21986,
+  "cliques_s": 39175752,
+  "cliques_t": 39175752,
+  "collapse": 1781.8,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": true,
+  "orbit_sizes": {
+   "min": 88,
+   "max": 1760
+  },
+  "order": 1760,
+  "problem": {
+   "k": 3,
+   "n": 88,
+   "s": 5,
+   "t": 5
+  }
+ },
+ {
+  "name": "Z_88 : <7,15> order 1760",
+  "status": "UNSAT",
+  "solve_s": 15.98,
+  "build_s": 5.23,
+  "cap_s": null,
+  "brute": null,
+  "n": 88,
+  "vars": 76,
+  "clauses": 43724,
+  "distinct_pos": 21862,
+  "distinct_neg": 21862,
+  "cliques_s": 39175752,
+  "cliques_t": 39175752,
+  "collapse": 1792.0,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": true,
+  "orbit_sizes": {
+   "min": 88,
+   "max": 1760
+  },
+  "order": 1760,
+  "problem": {
+   "k": 3,
+   "n": 88,
+   "s": 5,
+   "t": 5
+  }
+ }
+]

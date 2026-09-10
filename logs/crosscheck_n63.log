@@ -1,0 +1,10 @@
+cross-checking 5 class(es) at n=63, R(4,6;3) with Glucose3, Minisat22
+(the pipeline uses Cadical195 and Glucose42; neither appears here)
+  Z_63 : <2,5> order 2268       29 vars   14384 clauses build   16.1s  Glucose3=UNSAT (0.01s)  Minisat22=UNSAT (0.01s)
+  Z_63 : <4,5> order 1134       49 vars   54060 clauses build   18.1s  Glucose3=UNSAT (0.04s)  Minisat22=UNSAT (0.04s)
+  Z_63 : <2,11> order 1134      50 vars   54785 clauses build   18.3s  Glucose3=UNSAT (0.04s)  Minisat22=UNSAT (0.04s)
+  Z_63 : <4,10> order 1134      50 vars   54877 clauses build   18.2s  Glucose3=UNSAT (0.04s)  Minisat22=UNSAT (0.04s)
+  Z_63 : <2,31> order 756       63 vars   90594 clauses build   19.2s  Glucose3=UNSAT (0.07s)  Minisat22=UNSAT (0.07s)
+
+written to crosscheck_46_3_n63.json
+all 5 class(es) UNSAT under every solver tried, and they are exactly the classes certs_46_3_n63.json records -- matched by name AND generator fingerprint

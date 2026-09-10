@@ -1,0 +1,11 @@
+p=89   Z_89 : C_44        vars=90    clauses=2028    dead=4 -> UNSAT
+p=97   Z_97 : C_48        vars=102   clauses=2401    dead=2 -> UNSAT
+p=101  Z_101 : C_50       vars=102   clauses=2581    dead=2 -> UNSAT
+p=103  Z_103 : C_51       vars=105   clauses=2660    dead=0 -> UNSAT
+p=107  Z_107 : C_53       vars=105   clauses=2864    dead=0 -> UNSAT
+p=109  Z_109 : C_54       vars=114   clauses=3014    dead=0 -> UNSAT
+p=113  Z_113 : C_56       vars=114   clauses=3233    dead=2 -> UNSAT
+p=127  Z_127 : C_63       vars=129   clauses=4048    dead=0 -> UNSAT
+p=131  Z_131 : C_65       vars=129   clauses=4300    dead=0 -> UNSAT
+
+[exited with code 0]

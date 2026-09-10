@@ -1,0 +1,5 @@
+  p=13  n=14  Z_13 : C_6 + 1 fixed     |G|=78 C(p,2)=78 p%4=1  24 vars  SAT  [VERIFIED]
+  p=37  n=38  Z_37 : C_18 + 1 fixed    |G|=666 C(p,2)=666 p%4=1  48 vars  SAT  [VERIFIED]
+
+written to theorem_b_counterexamples.json
+all 2 of 2 class(es) satisfy |G| = C(p,2), fail -1 not in H, and are SAT with a verified colouring

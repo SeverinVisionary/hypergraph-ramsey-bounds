@@ -1,0 +1,188 @@
+15 group(s), cap 120s each
+  (0 already decided in cell_55_3_n88.json, skipping those)
+  Z_88 : <3,5,7> order 3520: 52 vars, 21924 clauses (3573.8x collapse from 39175752 cliques), built 5.7s
+    no Z_88 : <3,5,7> order 3520-invariant witness at n=88 (a null for THIS class only) (0.0s)
+  Z_88 : <3,7> order 1760: 75 vars, 44124 clauses (1775.7x collapse from 39175752 cliques), built 5.9s
+  Z_88 : <3,7> order 1760: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <13,15> order 1760: 75 vars, 44114 clauses (1776.1x collapse from 39175752 cliques), built 6.8s
+  Z_88 : <13,15> order 1760: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <3,17> order 1760: 76 vars, 43972 clauses (1781.8x collapse from 39175752 cliques), built 6.5s
+  Z_88 : <3,17> order 1760: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <7,15> order 1760: 76 vars, 43724 clauses (1792.0x collapse from 39175752 cliques), built 104.2s
+  Z_88 : <7,15> order 1760: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <5,7> order 1760: 86 vars, 46682 clauses (1678.4x collapse from 39175752 cliques), built 6.0s
+  Z_88 : <5,7> order 1760: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <5,13> order 1760: 87 vars, 46428 clauses (1687.6x collapse from 39175752 cliques), built 6.6s
+  Z_88 : <5,13> order 1760: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <3,5> order 1760: 92 vars, 48070 clauses (1629.9x collapse from 39175752 cliques), built 6.3s
+  Z_88 : <3,5> order 1760: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <7> order 880: 133 vars, 88696 clauses (883.4x collapse from 39175752 cliques), built 6.6s
+  Z_88 : <7> order 880: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <13> order 880: 133 vars, 88794 clauses (882.4x collapse from 39175752 cliques), built 96.4s
+  Z_88 : <13> order 880: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <19> order 880: 133 vars, 88756 clauses (882.8x collapse from 39175752 cliques), built 5.9s
+  Z_88 : <19> order 880: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <17> order 880: 135 vars, 88650 clauses (883.8x collapse from 39175752 cliques), built 5.4s
+  Z_88 : <17> order 880: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <3> order 880: 139 vars, 89736 clauses (873.1x collapse from 39175752 cliques), built 6.0s
+  Z_88 : <3> order 880: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <15> order 880: 139 vars, 89672 clauses (873.8x collapse from 39175752 cliques), built 6.5s
+  Z_88 : <15> order 880: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_88 : <5> order 880: 161 vars, 95022 clauses (824.6x collapse from 39175752 cliques), built 58.9s
+  Z_88 : <5> order 880: TIMEOUT after 120.0s (cap 120s) [outer process cap] -- a null under this budget, not a verdict.
+[
+ {
+  "name": "Z_88 : <3,5,7> order 3520",
+  "status": "UNSAT",
+  "solve_s": 0.02,
+  "vars": 52,
+  "clauses": 21924
+ },
+ {
+  "name": "Z_88 : <3,7> order 1760",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <13,15> order 1760",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <3,17> order 1760",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <7,15> order 1760",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <5,7> order 1760",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <5,13> order 1760",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <3,5> order 1760",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <7> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <13> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <19> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <17> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <3> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <15> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <5> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 120.0,
+  "vars": null,
+  "clauses": null
+ }
+]
+"Z_88 : <19> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <17> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <3> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <15> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <5> order 880",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <21,23,45> order 704",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_88 : <9> order 440",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": null,
+  "clauses": null
+ }
+]

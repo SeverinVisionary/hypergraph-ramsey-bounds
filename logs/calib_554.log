@@ -1,0 +1,32 @@
+
+Ladder B -- R(5,5;4), the target family (SAT side):
+  (5,5;4) n=10 rep0:     SAT     0.00s  vars=   210 clauses=     504  [VERIFIED]
+  (5,5;4) n=10 rep1:     SAT     0.00s  vars=   210 clauses=     504  [VERIFIED]
+  (5,5;4) n=10 rep2:     SAT     0.00s  vars=   210 clauses=     504  [VERIFIED]
+    -> n=10: median 0.00s, spread 0.00-0.00s (1.1x)
+  (5,5;4) n=14 rep0:     SAT     0.01s  vars=  1001 clauses=    4004  [VERIFIED]
+  (5,5;4) n=14 rep1:     SAT     0.01s  vars=  1001 clauses=    4004  [VERIFIED]
+  (5,5;4) n=14 rep2:     SAT     0.01s  vars=  1001 clauses=    4004  [VERIFIED]
+    -> n=14: median 0.01s, spread 0.01-0.01s (1.0x)
+  (5,5;4) n=18 rep0:     SAT     0.06s  vars=  3060 clauses=   17136  [VERIFIED]
+  (5,5;4) n=18 rep1:     SAT     0.04s  vars=  3060 clauses=   17136  [VERIFIED]
+  (5,5;4) n=18 rep2:     SAT     0.03s  vars=  3060 clauses=   17136  [VERIFIED]
+    -> n=18: median 0.04s, spread 0.03-0.06s (1.6x)
+  (5,5;4) n=22 rep0:     SAT     0.42s  vars=  7315 clauses=   52668  [VERIFIED]
+  (5,5;4) n=22 rep1:     SAT     0.32s  vars=  7315 clauses=   52668  [VERIFIED]
+  (5,5;4) n=22 rep2:     SAT     0.39s  vars=  7315 clauses=   52668  [VERIFIED]
+    -> n=22: median 0.39s, spread 0.32-0.42s (1.3x)
+  (5,5;4) n=26 rep0:     SAT     7.91s  vars= 14950 clauses=  131560  [VERIFIED]
+  (5,5;4) n=26 rep1:     SAT     9.15s  vars= 14950 clauses=  131560  [VERIFIED]
+  (5,5;4) n=26 rep2:     SAT    17.62s  vars= 14950 clauses=  131560  [VERIFIED]
+    -> n=26: median 9.15s, spread 7.91-17.62s (2.2x)
+  (5,5;4) n=29 rep0:     SAT   144.17s  vars= 23751 clauses=  237510  [VERIFIED]
+  (5,5;4) n=29 rep1:     SAT   132.01s  vars= 23751 clauses=  237510  [VERIFIED]
+  (5,5;4) n=29 rep2:     SAT    92.22s  vars= 23751 clauses=  237510  [VERIFIED]
+    -> n=29: median 132.01s, spread 92.22-144.17s (1.6x)
+  (5,5;4) n=31 rep0: TIMEOUT   300.00s  vars= 31465 clauses=  339822
+    -> n=31: median 300.00s, spread 300.00-300.00s (1.0x)
+    -> capped at n=31; stopping this ladder.
+
+wrote calib_554.json
+

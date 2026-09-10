@@ -1,0 +1,58 @@
+[
+  {
+    "n": 34,
+    "base": 33,
+    "extra": 1,
+    "status": "TIMEOUT",
+    "solve_s": 1800.0011289610002,
+    "cap_s": 1800.0
+  },
+  {
+    "n": 35,
+    "base": 33,
+    "extra": 2,
+    "status": "TIMEOUT",
+    "solve_s": 1800.0006479269996,
+    "cap_s": 1800.0
+  },
+  {
+    "n": 35,
+    "base": 32,
+    "extra": 3,
+    "status": "TIMEOUT",
+    "solve_s": 1800.0011401790007,
+    "cap_s": 1800.0
+  },
+  {
+    "n": 35,
+    "base": 33,
+    "extra": 2,
+    "status": "TIMEOUT",
+    "solve_s": 1800.0003034259998,
+    "cap_s": 1800.0
+  },
+  {
+    "n": 35,
+    "base": 32,
+    "extra": 3,
+    "status": "TIMEOUT",
+    "solve_s": 1800.0005320640003,
+    "cap_s": 1800.0
+  },
+  {
+    "n": 35,
+    "base": 31,
+    "extra": 4,
+    "status": "TIMEOUT",
+    "solve_s": 1800.0010585069995,
+    "cap_s": 1800.0
+  },
+  {
+    "n": 35,
+    "base": 31,
+    "extra": 4,
+    "status": "TIMEOUT",
+    "solve_s": 1800.0011372500012,
+    "cap_s": 1800.0
+  }
+]

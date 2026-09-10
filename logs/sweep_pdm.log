@@ -1,0 +1,3 @@
+primes 53..113 (15), m up to 12, max 800 vars, cap 120s
+  SAT  n=53   p=53   m=0   Z_53 : C_26                  54 vars (0.1s)
+  SAT  n=53   p=53   m=0   Z_53 : C_13                  102 vars (0.1s)

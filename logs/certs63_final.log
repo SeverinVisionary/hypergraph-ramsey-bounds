@@ -1,0 +1,8 @@
+certifying 5 class(es) at n=63, R(4,6;3), solver Glucose42
+  Z_63 : <2,5> order 2268      |G|=2268     29 vars   14384 clauses  CERTIFIED       0 proof steps  (0.1s)
+  Z_63 : <4,5> order 1134      |G|=1134     49 vars   54060 clauses  CERTIFIED   13975 proof steps  (3.9s)
+  Z_63 : <2,11> order 1134     |G|=1134     50 vars   54785 clauses  CERTIFIED   30939 proof steps  (5.3s)
+  Z_63 : <4,10> order 1134     |G|=1134     50 vars   54877 clauses  CERTIFIED      42 proof steps  (7.3s)
+  Z_63 : <2,31> order 756      |G|=756      63 vars   90594 clauses  CERTIFIED    5250 proof steps  (9.2s)
+
+5/5 class(es) certified UNSAT; written to certs_46_3_n63.json

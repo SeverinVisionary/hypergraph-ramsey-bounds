@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+title: "Three improved lower bounds for hypergraph Ramsey numbers: R(4,4,4;3) >= 84, R(4,6;3) >= 64, R(5,5;4) >= 36"
+message: "If you use this software or its results, please cite it as below."
+type: software
+version: "1.0"
+date-released: "2026-09-10"
+repository-code: "https://github.com/SeverinVisionary/hypergraph-ramsey-bounds"
+authors:
+  - given-names: Hanyu
+    family-names: Yang
+    orcid: "https://orcid.org/0009-0005-0419-4070"
+abstract: >-
+  Explicit group-invariant colourings improving three entries of section 7.1(a)
+  of Radziszowski's dynamic survey Small Ramsey Numbers (DS1, revision 18).
+  A 3-colouring of the triples of an 83-set with no monochromatic K_4 gives
+  R(4,4,4;3) >= 84, against the recorded 79; a 2-colouring of the triples of a
+  63-set gives R(4,6;3) >= 64, against 63; and a 2-colouring of the 4-subsets of
+  a 35-set gives R(5,5;4) >= 36, against 35. Each colouring is invariant under an
+  affine or holomorph group and is presented as a table over group orbits -- 27,
+  120 and 107 numbers respectively -- from which the full colouring is
+  regenerated without a solver. Each is verified by complete enumeration using a
+  checker that shares no code with the search. Five UNSAT symmetry classes of the
+  n = 63 tower can be re-certified by rerunning the solver and replaying its
+  proof with an independent RUP/RAT checker; the proof clauses themselves are not
+  deposited. An accompanying
+  obstruction theorem shows that an affine group whose order equals C(p,2) and
+  whose multiplier subgroup omits -1 (equivalently p = 3 mod 4) acts regularly
+  on unordered pairs, so adjoining a fixed point forces every triple through
+  that point into one orbit and hence one colour. For the diagonal problem
+  R(4,...,4;3) in m colours that leaves the base needing an (m-1)-colouring of
+  its triples with no monochromatic K_4^(3), which is impossible only once the
+  base reaches or exceeds the (m-1)-colour Ramsey number: at m = 3 that threshold is
+  R(4,4;3) = 13 and both towers clear it, while at m = 4 it is R(4,4,4;3)
+  itself and p = 79 does not -- adjoining a fourth colour to the deposited
+  79-point witness gives a good invariant colouring of the extension, so the
+  conclusion genuinely needs the threshold and is not implied by the two group
+  conditions alone. The pair-regular class of each tower here is the
+  index-two multiplier subgroup -- C_41 at p = 83, C_39 at p = 79, in neither
+  case the top class of the tower -- and each of those base classes holds a
+  witness; what the theorem explains without computation is that adjoining a
+  fixed point empties them, so Z_83 : C_41 + 1 fixed and Z_79 : C_39 + 1 fixed
+  are UNSAT. Both hypotheses are necessary:
+  for p = 1 mod 4 there are two pair-orbits and the conclusion fails. Novelty is provisional: both incumbent bounds are unpublished personal
+  communications, which were not obtainable through the bibliographic sources
+  searched.
+keywords:
+  - Ramsey theory
+  - hypergraph Ramsey numbers
+  - 3-uniform hypergraphs
+  - lower bounds
+  - SAT solving
+  - symmetry reduction
+  - group orbits
+  - certified computation
+  - DRAT proofs
+license: MIT

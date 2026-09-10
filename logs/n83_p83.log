@@ -1,0 +1,6 @@
+R(4,4,4;3) at n=83: 2 group(s), cap 1800s each
+  Z_83 : C_82: 14 orbits x 3 colours = 42 vars, 773 clauses, built 0.2s
+    no witness in this symmetry class (a null for THIS class only) (0.0s)
+  Z_83 : C_41: 27 orbits x 3 colours = 81 vars, 1728 clauses, built 0.2s
+    WITNESS: n=83: no K_[4, 4, 4] monochromatic in its own colour => R(4,4,4;3) >= 84 (0.0s)
+    written to witness_444_3_n83.json

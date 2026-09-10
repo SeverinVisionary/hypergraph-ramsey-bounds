@@ -1,0 +1,16 @@
+$ python3 verify_witness_n63.py
+witness      witness_46_3_n63.json
+declares     n=63 s=4 t=6 k=3  Z_63 : <10,19,37,46,55> order 378
+certifies    R(4,6;3) >= 64
+sha256       998c2217a9c3e3cc1d2b082be2a5b9b8d9c30e1d2b62b1dfc1cc896bdbd754cd
+faces        39711 expected C(63,3)=39711
+colour 0     14070
+colour 1     25641
+scanning intended reading (K_4 in colour 0, K_6 in colour 1) ...
+  mono K_4 in colour 0: 0   (want 0)
+  mono K_6 in colour 1: 0   (want 0)
+scanning reversed reading (K_4 in colour 1) ...
+  mono K_4 in colour 1: 102627   (want 102627)
+
+OK: R(4,6;3) >= 64, complete enumeration, both readings.
+exit=0

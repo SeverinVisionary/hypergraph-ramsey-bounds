@@ -1,0 +1,8 @@
+vars 49 clauses 54060
+sat False steps 13975
+FIRST FAILING STEP 13973/13975: len=1 lits=[43]
+  deletions so far: 13973
+  db size: 47062
+0
+  deletions so far: 13973
+  db clauses: 47062

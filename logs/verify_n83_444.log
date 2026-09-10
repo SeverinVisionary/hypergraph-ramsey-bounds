@@ -1,0 +1,16 @@
+$ python3 verify_witness_n83.py
+witness      witness_444_3_n83.json
+declares     n=83 sizes=[4, 4, 4] k=3  Z_83 : C_41
+certifies    R(4,4,4;3) >= 84
+sha256       a08602b488ec0f899412ce5cc31ec34a69c05995c1432fd74c04cae9467ecce2
+faces        91881 expected C(83,3)=91881
+colour 0     30627
+colour 1     30627
+colour 2     30627
+scanning all C(83,4) = 1837620 four-subsets ...
+  monochromatic 4-sets: 0   (want 0)
+control: recolour one triple and require the scan to notice ...
+  monochromatic 4-sets after perturbation: >=1   (want >=1)
+
+OK: R(4,4,4;3) >= 84, complete enumeration, three colours.
+exit=0

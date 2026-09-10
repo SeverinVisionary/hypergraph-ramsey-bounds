@@ -1,0 +1,70 @@
+[
+ {
+  "name": "Z_79 : C_78",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.64,
+  "n": 79,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 14,
+  "vars": 42,
+  "clauses": 713,
+  "exactly_one_clauses": 56,
+  "distinct_per_colour": [
+   219,
+   219,
+   219
+  ],
+  "cliques": [
+   1502501,
+   1502501,
+   1502501
+  ],
+  "collapse": [
+   6860.7,
+   6860.7,
+   6860.7
+  ],
+  "order": 6162
+ },
+ {
+  "name": "Z_79 : C_39",
+  "status": "SAT",
+  "solve_s": 0.0,
+  "build_s": 1.64,
+  "n": 79,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 27,
+  "vars": 81,
+  "clauses": 1560,
+  "exactly_one_clauses": 108,
+  "distinct_per_colour": [
+   484,
+   484,
+   484
+  ],
+  "cliques": [
+   1502501,
+   1502501,
+   1502501
+  ],
+  "collapse": [
+   3104.3,
+   3104.3,
+   3104.3
+  ],
+  "order": 3081
+ }
+]

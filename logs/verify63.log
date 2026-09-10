@@ -1,0 +1,5 @@
+mono K4 in colour 0: 0    mono K4 in colour 1: 102627
+mono K6 in colour 1: 0    mono K6 in colour 0: 0
+
+intended reading (0 avoids K4, 1 avoids K6): HOLDS
+inverse reading  (1 avoids K4, 0 avoids K6): FAILS

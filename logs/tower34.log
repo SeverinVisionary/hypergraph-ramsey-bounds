@@ -1,0 +1,145 @@
+15 group(s), cap 60s each
+  (0 already decided in ansatz34_results.json, skipping those)
+  S_4 wr AGL(3,2) | 34pt: 14 vars, 44 clauses (12648.0x collapse from 278256 cliques), built 0.4s
+    cross-check: brute force over 2^14 colourings agrees (UNSAT, 0.001s, 0 surviving colourings)
+    no S_4 wr AGL(3,2) | 34pt-invariant witness at n=34 (a null for THIS class only) (0.0s)
+  E_32 : P(2,3) | 34pt: 16 vars, 58 clauses (9595.0x collapse from 278256 cliques), built 0.5s
+    cross-check: brute force over 2^16 colourings agrees (UNSAT, 0.008s, 0 surviving colourings)
+    no E_32 : P(2,3) | 34pt-invariant witness at n=34 (a null for THIS class only) (0.0s)
+  AGL(1,32) | 34pt: 51 vars, 576 clauses (966.2x collapse from 278256 cliques), built 0.4s
+    no AGL(1,32) | 34pt-invariant witness at n=34 (a null for THIS class only) (0.0s)
+  E_32 : U (Sylow 2 of AGL(5,2)) | 34pt: 65 vars, 330 clauses (1686.4x collapse from 278256 cliques), built 0.6s
+    no E_32 : U (Sylow 2 of AGL(5,2)) | 34pt-invariant witness at n=34 (a null for THIS class only) (0.0s)
+  Hol(Z_34) | 34pt: 95 vars, 1040 clauses (535.1x collapse from 278256 cliques), built 0.4s
+    WITNESS at n=34 in 0.0s, verified on the full 46376-bit colouring => R(5,5;4) >= 35
+    witness written to witness_n34_Hol(Z_34)_|_34pt.json
+  S_4 wr S_2 | 34pt: 107 vars, 840 clauses (662.5x collapse from 278256 cliques), built 0.4s
+    no S_4 wr S_2 | 34pt-invariant witness at n=34 (a null for THIS class only) (0.0s)
+  Hol(Z_32) | 34pt: 141 vars, 1342 clauses (414.7x collapse from 278256 cliques), built 0.4s
+    no Hol(Z_32) | 34pt-invariant witness at n=34 (a null for THIS class only) (0.0s)
+  F_186 = C_31:C_6 | 34pt: 296 vars, 3192 clauses (174.3x collapse from 278256 cliques), built 0.4s
+  F_186 = C_31:C_6 | 34pt: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_33:(C_2 x C_2) | 34pt: 431 vars, 4592 clauses (121.2x collapse from 278256 cliques), built 0.5s
+  Z_33:(C_2 x C_2) | 34pt: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  S_4 x S_3 | 34pt: 507 vars, 4934 clauses (112.8x collapse from 278256 cliques), built 0.5s
+    no S_4 x S_3 | 34pt-invariant witness at n=34 (a null for THIS class only) (15.6s)
+  F_93 = C_31:C_3 | 34pt: 526 vars, 6064 clauses (91.8x collapse from 278256 cliques), built 0.6s
+  F_93 = C_31:C_3 | 34pt: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  D_34 | 34pt: 752 vars, 8304 clauses (67.0x collapse from 278256 cliques), built 0.5s
+  D_34 | 34pt: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  D_33 | 34pt: 771 vars, 8672 clauses (64.2x collapse from 278256 cliques), built 0.5s
+  D_33 | 34pt: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  D_32 | 34pt: 810 vars, 9064 clauses (61.4x collapse from 278256 cliques), built 0.5s
+  D_32 | 34pt: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+  D_31 | 34pt: 846 vars, 9456 clauses (58.9x collapse from 278256 cliques), built 0.6s
+  D_31 | 34pt: TIMEOUT after 60.0s (cap 60s) [outer process cap] -- a null under this budget, not a verdict.
+[
+ {
+  "name": "S_4 wr AGL(3,2) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 14,
+  "clauses": 44
+ },
+ {
+  "name": "E_32 : P(2,3) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 16,
+  "clauses": 58
+ },
+ {
+  "name": "AGL(1,32) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 51,
+  "clauses": 576
+ },
+ {
+  "name": "E_32 : U (Sylow 2 of AGL(5,2)) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 65,
+  "clauses": 330
+ },
+ {
+  "name": "Hol(Z_34) | 34pt",
+  "status": "SAT",
+  "solve_s": 0.02,
+  "vars": 95,
+  "clauses": 1040
+ },
+ {
+  "name": "S_4 wr S_2 | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 107,
+  "clauses": 840
+ },
+ {
+  "name": "Hol(Z_32) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 141,
+  "clauses": 1342
+ },
+ {
+  "name": "F_186 = C_31:C_6 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 296,
+  "clauses": null
+ },
+ {
+  "name": "Z_33:(C_2 x C_2) | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 431,
+  "clauses": null
+ },
+ {
+  "name": "S_4 x S_3 | 34pt",
+  "status": "UNSAT",
+  "solve_s": 15.61,
+  "vars": 507,
+  "clauses": 4934
+ },
+ {
+  "name": "F_93 = C_31:C_3 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 526,
+  "clauses": null
+ },
+ {
+  "name": "D_34 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 752,
+  "clauses": null
+ },
+ {
+  "name": "D_33 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 771,
+  "clauses": null
+ },
+ {
+  "name": "D_32 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 810,
+  "clauses": null
+ },
+ {
+  "name": "D_31 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "vars": 846,
+  "clauses": null
+ }
+]
+
+*** SAT: ['Hol(Z_34) | 34pt'] ***
+EXIT 0

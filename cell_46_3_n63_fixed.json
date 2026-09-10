@@ -1,0 +1,338 @@
+[
+ {
+  "name": "Z_61 : C_60 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 1584.28,
+  "cap_s": null,
+  "brute": {
+   "status": "UNSAT",
+   "s": 0.005,
+   "models": 0
+  },
+  "n": 63,
+  "vars": 14,
+  "clauses": 1890,
+  "distinct_pos": 148,
+  "distinct_neg": 1742,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 4024.8,
+  "forced_mono_vars": [
+   5,
+   10
+  ],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 61,
+   "max": 3660
+  },
+  "order": 3660
+ },
+ {
+  "name": "Z_61 : C_30 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.03,
+  "build_s": 233.74,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 27,
+  "clauses": 33628,
+  "distinct_pos": 330,
+  "distinct_neg": 33298,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 1805.0,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 61,
+   "max": 1830
+  },
+  "order": 1830
+ },
+ {
+  "name": "Z_61 : C_20 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.07,
+  "build_s": 301.04,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 38,
+  "clauses": 55537,
+  "distinct_pos": 507,
+  "distinct_neg": 55030,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 1174.9,
+  "forced_mono_vars": [
+   5,
+   10,
+   28
+  ],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 61,
+   "max": 1220
+  },
+  "order": 1220
+ },
+ {
+  "name": "Z_61 : C_15 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 1.8,
+  "build_s": 297.8,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 47,
+  "clauses": 74894,
+  "distinct_pos": 654,
+  "distinct_neg": 74240,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 910.8,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 61,
+   "max": 915
+  },
+  "order": 915
+ },
+ {
+  "name": "Z_61 : C_12 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 1.21,
+  "build_s": 429.84,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 66,
+  "clauses": 93548,
+  "distinct_pos": 870,
+  "distinct_neg": 92678,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 684.7,
+  "forced_mono_vars": [
+   5,
+   10,
+   36,
+   40,
+   53
+  ],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 61,
+   "max": 732
+  },
+  "order": 732
+ },
+ {
+  "name": "Z_61 : C_10 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 1.31,
+  "build_s": 382.76,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 75,
+  "clauses": 112313,
+  "distinct_pos": 1017,
+  "distinct_neg": 111296,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 585.7,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 61,
+   "max": 610
+  },
+  "order": 610
+ },
+ {
+  "name": "Z_61 : C_6 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 355.17,
+  "build_s": 291.81,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 131,
+  "clauses": 187986,
+  "distinct_pos": 1735,
+  "distinct_neg": 186251,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 343.3,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 61,
+   "max": 366
+  },
+  "order": 366
+ },
+ {
+  "name": "Z_61 : C_5 + 2 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "cap_s": 1800.0,
+  "vars": null,
+  "clauses": null,
+  "order": 305
+ },
+ {
+  "name": "Z_61 : C_4 + 2 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "cap_s": 1800.0,
+  "vars": null,
+  "clauses": null,
+  "order": 244
+ },
+ {
+  "name": "Z_61 : C_3 + 2 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "cap_s": 1800.0,
+  "vars": null,
+  "clauses": null,
+  "order": 183
+ },
+ {
+  "name": "Z_59 : C_58 + 4 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 199.4,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 24,
+  "clauses": 2678,
+  "distinct_pos": 165,
+  "distinct_neg": 2513,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 3610.1,
+  "forced_mono_vars": [
+   10
+  ],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 3422
+  },
+  "order": 3422
+ },
+ {
+  "name": "Z_59 : C_29 + 4 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "build_s": 227.63,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 33,
+  "clauses": 33829,
+  "distinct_pos": 351,
+  "distinct_neg": 33478,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 1697.1,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 1711
+  },
+  "order": 1711
+ },
+ {
+  "name": "Z_53 : C_52 + 10 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 186.65,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 184,
+  "clauses": 8264,
+  "distinct_pos": 554,
+  "distinct_neg": 7710,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 1075.2,
+  "forced_mono_vars": [
+   9
+  ],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 2756
+  },
+  "order": 2756
+ },
+ {
+  "name": "Z_53 : C_26 + 10 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "build_s": 208.13,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 203,
+  "clauses": 43768,
+  "distinct_pos": 817,
+  "distinct_neg": 42951,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 729.1,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 1378
+  },
+  "order": 1378
+ },
+ {
+  "name": "Z_53 : C_13 + 10 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.12,
+  "build_s": 225.13,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 219,
+  "clauses": 100198,
+  "distinct_pos": 1185,
+  "distinct_neg": 99013,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 502.7,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 689
+  },
+  "order": 689
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "name": "Z_83 : C_82",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.22,
+  "empty_by_construction": [],
+  "n": 83,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 14,
+  "vars": 42,
+  "clauses": 773,
+  "exactly_one_clauses": 56,
+  "distinct_per_colour": [
+   239,
+   239,
+   239
+  ],
+  "cliques": [
+   1837620,
+   1837620,
+   1837620
+  ],
+  "collapse": [
+   7688.8,
+   7688.8,
+   7688.8
+  ],
+  "translation_fast_path": true,
+  "order": 6806
+ },
+ {
+  "name": "Z_83 : C_41",
+  "status": "SAT",
+  "solve_s": 0.01,
+  "build_s": 0.24,
+  "empty_by_construction": [],
+  "n": 83,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 27,
+  "vars": 81,
+  "clauses": 1728,
+  "exactly_one_clauses": 108,
+  "distinct_per_colour": [
+   540,
+   540,
+   540
+  ],
+  "cliques": [
+   1837620,
+   1837620,
+   1837620
+  ],
+  "collapse": [
+   3403.0,
+   3403.0,
+   3403.0
+  ],
+  "translation_fast_path": true,
+  "order": 3403
+ }
+]

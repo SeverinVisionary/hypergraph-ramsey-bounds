@@ -1,0 +1,23 @@
+# The environment every number in this package was produced and re-checked on.
+#
+# Pinned rather than ranged because the behaviour of one of these dependencies
+# is load-bearing and version-dependent: under python-sat >= 1.9.dev15,
+# Cadical195.interrupt() raises NotImplementedError, so an in-process solver
+# deadline is a SILENT no-op. capped.py works around this by enforcing every
+# cap in a child process instead. On an older python-sat the in-process path
+# would work and the code would still be correct; on a future one that changes
+# the exception, it may not be. Reproduce with these versions first, then vary
+# them deliberately.
+#
+#   python3 -m pip install -r requirements.txt
+#
+# Recorded interpreter: CPython 3.9.6 (macOS). Nothing here requires 3.9
+# specifically; 3.9 is what the runs were made on.
+
+python-sat==1.9.dev15
+pytest==8.4.2
+
+# Solver backends used by name in this package, all supplied by python-sat:
+#   Cadical195   -- search.py, ansatz.py
+#   Glucose42    -- drat_check.py, certify_nulls.py
+#   Glucose3, Lingeling -- cross-checks in the test suite

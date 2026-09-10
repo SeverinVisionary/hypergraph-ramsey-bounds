@@ -1,0 +1,41 @@
+4 group(s), cap 120s each
+  (0 already decided in ansatz36_results.json, skipping those)
+  Hol(Z_34) + 2 fixed: 122 vars, 1444 clauses (522.1x collapse from 376992 cliques), built 1.1s
+    no Hol(Z_34) + 2 fixed-invariant witness at n=36 (a null for THIS class only) (0.0s)
+  Hol(Z_29) + 7 fixed: 159 vars, 1154 clauses (653.4x collapse from 376992 cliques), built 1.4s
+    no Hol(Z_29) + 7 fixed-invariant witness at n=36 (a null for THIS class only) (0.0s)
+  Hol(Z_36) + 0 fixed: 195 vars, 1994 clauses (378.1x collapse from 376992 cliques), built 1.2s
+    no Hol(Z_36) + 0 fixed-invariant witness at n=36 (a null for THIS class only) (0.0s)
+  Hol(Z_32) + 4 fixed: 207 vars, 1964 clauses (383.9x collapse from 376992 cliques), built 1.1s
+    no Hol(Z_32) + 4 fixed-invariant witness at n=36 (a null for THIS class only) (0.0s)
+[
+ {
+  "name": "Hol(Z_34) + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 122,
+  "clauses": 1444
+ },
+ {
+  "name": "Hol(Z_29) + 7 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 159,
+  "clauses": 1154
+ },
+ {
+  "name": "Hol(Z_36) + 0 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 195,
+  "clauses": 1994
+ },
+ {
+  "name": "Hol(Z_32) + 4 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 207,
+  "clauses": 1964
+ }
+]
+EXIT 0

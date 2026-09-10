@@ -1,0 +1,368 @@
+[
+ {
+  "name": "S_4 wr AGL(3,2) x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.51,
+  "cap_s": null,
+  "brute": {
+   "status": "UNSAT",
+   "s": 0.0,
+   "models": 0
+  },
+  "n": 35,
+  "vars": 12,
+  "clauses": 36,
+  "distinct_pos": 18,
+  "distinct_neg": 18,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 18035.1,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 16128
+  },
+  "order": 887647333515264
+ },
+ {
+  "name": "E_32 : P(2,3) x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.57,
+  "cap_s": null,
+  "brute": {
+   "status": "UNSAT",
+   "s": 0.001,
+   "models": 0
+  },
+  "n": 35,
+  "vars": 14,
+  "clauses": 46,
+  "distinct_pos": 23,
+  "distinct_neg": 23,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 14114.4,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 16128
+  },
+  "order": 12386304
+ },
+ {
+  "name": "S_4 wr AGL(3,2)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.5,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 22,
+  "clauses": 72,
+  "distinct_pos": 36,
+  "distinct_neg": 36,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 9017.6,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 16128
+  },
+  "order": 147941222252544
+ },
+ {
+  "name": "E_32 : P(2,3)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.54,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 24,
+  "clauses": 90,
+  "distinct_pos": 45,
+  "distinct_neg": 45,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 7214.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 16128
+  },
+  "order": 2064384
+ },
+ {
+  "name": "AGL(1,32) x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.5,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 47,
+  "clauses": 498,
+  "distinct_pos": 249,
+  "distinct_neg": 249,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 1303.7,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 32,
+   "max": 2976
+  },
+  "order": 5952
+ },
+ {
+  "name": "AGL(1,32)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.45,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 59,
+  "clauses": 678,
+  "distinct_pos": 339,
+  "distinct_neg": 339,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 957.6,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 32,
+   "max": 992
+  },
+  "order": 992
+ },
+ {
+  "name": "E_32 : U (Sylow 2 of AGL(5,2))",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.73,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 86,
+  "clauses": 460,
+  "distinct_pos": 230,
+  "distinct_neg": 230,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 1411.4,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 8192
+  },
+  "order": 32768
+ },
+ {
+  "name": "AGL(3,2)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.48,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 101,
+  "clauses": 804,
+  "distinct_pos": 402,
+  "distinct_neg": 402,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 807.5,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 7,
+   "max": 1344
+  },
+  "order": 1344
+ },
+ {
+  "name": "Hol(Z_34)",
+  "status": "SAT",
+  "solve_s": 2.41,
+  "build_s": 0.48,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 107,
+  "clauses": 1230,
+  "distinct_pos": 615,
+  "distinct_neg": 615,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 527.9,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 136,
+   "max": 544
+  },
+  "order": 544
+ },
+ {
+  "name": "S_4 wr S_2",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.48,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 133,
+  "clauses": 1054,
+  "distinct_pos": 527,
+  "distinct_neg": 527,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 616.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 1152
+  },
+  "order": 1152
+ },
+ {
+  "name": "Hol(Z_32)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.51,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 170,
+  "clauses": 1624,
+  "distinct_pos": 812,
+  "distinct_neg": 812,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 399.8,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 512
+  },
+  "order": 512
+ },
+ {
+  "name": "AGL1_35_Hall5prime (C7 : Z35*)",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.58,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 338,
+  "clauses": 3968,
+  "distinct_pos": 1984,
+  "distinct_neg": 1984,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 163.6,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 7,
+   "max": 168
+  },
+  "order": 168
+ },
+ {
+  "name": "F_186 = C_31:C_6",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 345,
+  "clauses": null,
+  "order": 186
+ },
+ {
+  "name": "A-Gamma-L(1,8)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 365,
+  "clauses": null,
+  "order": 168
+ },
+ {
+  "name": "PSL(3,2)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 374,
+  "clauses": null,
+  "order": 168
+ },
+ {
+  "name": "Z_33:(C_2 x C_2)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 498,
+  "clauses": null,
+  "order": 132
+ },
+ {
+  "name": "F_93 = C_31:C_3",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 600,
+  "clauses": null,
+  "order": 93
+ },
+ {
+  "name": "S_4 x S_3",
+  "status": "UNSAT",
+  "solve_s": 0.02,
+  "build_s": 0.62,
+  "cap_s": null,
+  "brute": null,
+  "n": 35,
+  "vars": 601,
+  "clauses": 5948,
+  "distinct_pos": 2974,
+  "distinct_neg": 2974,
+  "cliques_s": 324632,
+  "cliques_t": 324632,
+  "collapse": 109.2,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 144
+  },
+  "order": 144
+ },
+ {
+  "name": "C7 : C12 (multiplier 2)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 640,
+  "clauses": null,
+  "order": 84
+ },
+ {
+  "name": "C7 : C12 (multiplier 3)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 640,
+  "clauses": null,
+  "order": 84
+ },
+ {
+  "name": "C7 : C12 (multipliers 4,6)",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 672,
+  "clauses": null,
+  "order": 84
+ }
+]

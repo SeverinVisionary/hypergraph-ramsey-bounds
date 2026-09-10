@@ -1,0 +1,10 @@
+  Z_33 + 1 fixed -> 34 points: 166 free orbit vars (1240 pinned), 40920 clauses, built 1.0s
+  34 points: TIMEOUT after 1800.0s (cap 1800.0s) [outer process cap] -- a null under this budget, not a verdict.
+{
+  "n": 34,
+  "base": 33,
+  "extra": 1,
+  "status": "TIMEOUT",
+  "solve_s": 1800.0011289610002,
+  "cap_s": 1800.0
+}

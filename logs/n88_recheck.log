@@ -1,0 +1,22 @@
+2 group(s), cap 900s each
+  (0 already decided in cell_55_3_n88_recheck.json at {'k': 3, 'n': 88, 's': 5, 't': 5}, skipping those)
+  Z_88 : <3,17> order 1760: 76 vars, 43972 clauses (1781.8x collapse from 39175752 cliques), built 4.5s
+    no Z_88 : <3,17> order 1760-invariant witness at n=88 (a null for THIS class only) (60.3s)
+  Z_88 : <7,15> order 1760: 76 vars, 43724 clauses (1792.0x collapse from 39175752 cliques), built 5.2s
+    no Z_88 : <7,15> order 1760-invariant witness at n=88 (a null for THIS class only) (16.0s)
+[
+ {
+  "name": "Z_88 : <3,17> order 1760",
+  "status": "UNSAT",
+  "solve_s": 60.27,
+  "vars": 76,
+  "clauses": 43972
+ },
+ {
+  "name": "Z_88 : <7,15> order 1760",
+  "status": "UNSAT",
+  "solve_s": 15.98,
+  "vars": 76,
+  "clauses": 43724
+ }
+]

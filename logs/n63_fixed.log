@@ -1,0 +1,146 @@
+15 group(s), cap 1800s each
+  (0 already decided in cell_46_3_n63_fixed.json, skipping those)
+  Z_61 : C_60 + 2 fixed: 14 vars, 1890 clauses (4024.8x collapse from 595665 cliques), built 1584.3s
+    NOTE: 2 orbit(s) carry a unit clause -- a constraint, NOT a proof that the class is empty
+    cross-check: brute force over 2^14 colourings agrees (UNSAT, 0.005s, 0 surviving colourings)
+    no Z_61 : C_60 + 2 fixed-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_61 : C_30 + 2 fixed: 27 vars, 33628 clauses (1805.0x collapse from 595665 cliques), built 233.7s
+    no Z_61 : C_30 + 2 fixed-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_61 : C_20 + 2 fixed: 38 vars, 55537 clauses (1174.9x collapse from 595665 cliques), built 301.0s
+    NOTE: 3 orbit(s) carry a unit clause -- a constraint, NOT a proof that the class is empty
+    no Z_61 : C_20 + 2 fixed-invariant witness at n=63 (a null for THIS class only) (0.1s)
+  Z_61 : C_15 + 2 fixed: 47 vars, 74894 clauses (910.8x collapse from 595665 cliques), built 297.8s
+    no Z_61 : C_15 + 2 fixed-invariant witness at n=63 (a null for THIS class only) (1.8s)
+  Z_61 : C_12 + 2 fixed: 66 vars, 93548 clauses (684.7x collapse from 595665 cliques), built 429.8s
+    NOTE: 5 orbit(s) carry a unit clause -- a constraint, NOT a proof that the class is empty
+    no Z_61 : C_12 + 2 fixed-invariant witness at n=63 (a null for THIS class only) (1.2s)
+  Z_61 : C_10 + 2 fixed: 75 vars, 112313 clauses (585.7x collapse from 595665 cliques), built 382.8s
+    no Z_61 : C_10 + 2 fixed-invariant witness at n=63 (a null for THIS class only) (1.3s)
+  Z_61 : C_6 + 2 fixed: 131 vars, 187986 clauses (343.3x collapse from 595665 cliques), built 291.8s
+    no Z_61 : C_6 + 2 fixed-invariant witness at n=63 (a null for THIS class only) (355.2s)
+  Z_61 : C_5 + 2 fixed: 131 vars, 224754 clauses (305.0x collapse from 595665 cliques), built 360.3s
+  Z_61 : C_5 + 2 fixed: TIMEOUT after 1800.0s (cap 1800s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_61 : C_4 + 2 fixed: 186 vars, 281569 clauses (230.9x collapse from 595665 cliques), built 407.5s
+    NOTE: 15 orbit(s) carry a unit clause -- a constraint, NOT a proof that the class is empty
+  Z_61 : C_4 + 2 fixed: TIMEOUT after 1800.0s (cap 1800s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_61 : C_3 + 2 fixed: 231 vars, 374722 clauses (180.8x collapse from 595665 cliques), built 311.6s
+  Z_61 : C_3 + 2 fixed: TIMEOUT after 1800.0s (cap 1800s) [outer process cap] -- a null under this budget, not a verdict.
+  Z_59 : C_58 + 4 fixed: 24 vars, 2678 clauses (3610.1x collapse from 595665 cliques), built 199.4s
+    NOTE: 1 orbit(s) carry a unit clause -- a constraint, NOT a proof that the class is empty
+    no Z_59 : C_58 + 4 fixed-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_59 : C_29 + 4 fixed: 33 vars, 33829 clauses (1697.1x collapse from 595665 cliques), built 227.6s
+    no Z_59 : C_29 + 4 fixed-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_53 : C_52 + 10 fixed: 184 vars, 8264 clauses (1075.2x collapse from 595665 cliques), built 186.6s
+    NOTE: 1 orbit(s) carry a unit clause -- a constraint, NOT a proof that the class is empty
+    no Z_53 : C_52 + 10 fixed-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_53 : C_26 + 10 fixed: 203 vars, 43768 clauses (729.1x collapse from 595665 cliques), built 208.1s
+    no Z_53 : C_26 + 10 fixed-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_53 : C_13 + 10 fixed: 219 vars, 100198 clauses (502.7x collapse from 595665 cliques), built 225.1s
+    no Z_53 : C_13 + 10 fixed-invariant witness at n=63 (a null for THIS class only) (0.1s)
+[
+ {
+  "name": "Z_61 : C_60 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "vars": 14,
+  "clauses": 1890
+ },
+ {
+  "name": "Z_61 : C_30 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.03,
+  "vars": 27,
+  "clauses": 33628
+ },
+ {
+  "name": "Z_61 : C_20 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.07,
+  "vars": 38,
+  "clauses": 55537
+ },
+ {
+  "name": "Z_61 : C_15 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 1.8,
+  "vars": 47,
+  "clauses": 74894
+ },
+ {
+  "name": "Z_61 : C_12 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 1.21,
+  "vars": 66,
+  "clauses": 93548
+ },
+ {
+  "name": "Z_61 : C_10 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 1.31,
+  "vars": 75,
+  "clauses": 112313
+ },
+ {
+  "name": "Z_61 : C_6 + 2 fixed",
+  "status": "UNSAT",
+  "solve_s": 355.17,
+  "vars": 131,
+  "clauses": 187986
+ },
+ {
+  "name": "Z_61 : C_5 + 2 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_61 : C_4 + 2 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_61 : C_3 + 2 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "vars": null,
+  "clauses": null
+ },
+ {
+  "name": "Z_59 : C_58 + 4 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "vars": 24,
+  "clauses": 2678
+ },
+ {
+  "name": "Z_59 : C_29 + 4 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "vars": 33,
+  "clauses": 33829
+ },
+ {
+  "name": "Z_53 : C_52 + 10 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "vars": 184,
+  "clauses": 8264
+ },
+ {
+  "name": "Z_53 : C_26 + 10 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "vars": 203,
+  "clauses": 43768
+ },
+ {
+  "name": "Z_53 : C_13 + 10 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.12,
+  "vars": 219,
+  "clauses": 100198
+ }
+]

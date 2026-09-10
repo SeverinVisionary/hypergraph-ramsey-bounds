@@ -1,0 +1,142 @@
+[
+ {
+  "name": "Z_79 : C_78 + 3 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.75,
+  "n": 82,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 21,
+  "vars": 63,
+  "clauses": 879,
+  "exactly_one_clauses": 84,
+  "distinct_per_colour": [
+   265,
+   265,
+   265
+  ],
+  "cliques": [
+   1749060,
+   1749060,
+   1749060
+  ],
+  "collapse": [
+   6600.2,
+   6600.2,
+   6600.2
+  ],
+  "translation_fast_path": false,
+  "order": 6162
+ },
+ {
+  "name": "Z_79 : C_39 + 3 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.77,
+  "n": 82,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 34,
+  "vars": 102,
+  "clauses": 1843,
+  "exactly_one_clauses": 136,
+  "distinct_per_colour": [
+   569,
+   569,
+   569
+  ],
+  "cliques": [
+   1749060,
+   1749060,
+   1749060
+  ],
+  "collapse": [
+   3073.9,
+   3073.9,
+   3073.9
+  ],
+  "translation_fast_path": false,
+  "order": 3081
+ },
+ {
+  "name": "Z_79 : C_26 + 3 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 1.8,
+  "n": 82,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 53,
+  "vars": 159,
+  "clauses": 2855,
+  "exactly_one_clauses": 212,
+  "distinct_per_colour": [
+   881,
+   881,
+   881
+  ],
+  "cliques": [
+   1749060,
+   1749060,
+   1749060
+  ],
+  "collapse": [
+   1985.3,
+   1985.3,
+   1985.3
+  ],
+  "translation_fast_path": false,
+  "order": 2054
+ },
+ {
+  "name": "Z_79 : C_13 + 3 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.06,
+  "build_s": 1.87,
+  "n": 82,
+  "k": 3,
+  "sizes": [
+   4,
+   4,
+   4
+  ],
+  "colours": 3,
+  "orbits": 90,
+  "vars": 270,
+  "clauses": 5463,
+  "exactly_one_clauses": 360,
+  "distinct_per_colour": [
+   1701,
+   1701,
+   1701
+  ],
+  "cliques": [
+   1749060,
+   1749060,
+   1749060
+  ],
+  "collapse": [
+   1028.3,
+   1028.3,
+   1028.3
+  ],
+  "translation_fast_path": false,
+  "order": 1027
+ }
+]

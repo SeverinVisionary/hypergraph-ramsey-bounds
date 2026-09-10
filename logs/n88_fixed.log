@@ -1,0 +1,58 @@
+6 group(s), cap 1800s each
+  (0 already decided in cell_55_3_n88_fixed.json, skipping those)
+  Z_83 : C_82 + 5 fixed: 39 vars, 8656 clauses (9051.7x collapse from 39175752 cliques), built 747.3s
+    no Z_83 : C_82 + 5 fixed-invariant witness at n=88 (a null for THIS class only) (0.1s)
+  Z_83 : C_41 + 5 fixed: 52 vars, 22918 clauses (3418.8x collapse from 39175752 cliques), built 110.2s
+    no Z_83 : C_41 + 5 fixed-invariant witness at n=88 (a null for THIS class only) (0.0s)
+  Z_79 : C_78 + 9 fixed: 143 vars, 10574 clauses (7409.8x collapse from 39175752 cliques), built 103.7s
+    no Z_79 : C_78 + 9 fixed-invariant witness at n=88 (a null for THIS class only) (0.0s)
+  Z_79 : C_39 + 9 fixed: 156 vars, 25842 clauses (3031.9x collapse from 39175752 cliques), built 105.2s
+    no Z_79 : C_39 + 9 fixed-invariant witness at n=88 (a null for THIS class only) (0.0s)
+  Z_79 : C_26 + 9 fixed: 187 vars, 39224 clauses (1997.5x collapse from 39175752 cliques), built 107.3s
+    no Z_79 : C_26 + 9 fixed-invariant witness at n=88 (a null for THIS class only) (0.7s)
+  Z_79 : C_13 + 9 fixed: 224 vars, 76716 clauses (1021.3x collapse from 39175752 cliques), built 107.7s
+  Z_79 : C_13 + 9 fixed: TIMEOUT after 1800.0s (cap 1800s) [outer process cap] -- a null under this budget, not a verdict.
+[
+ {
+  "name": "Z_83 : C_82 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.07,
+  "vars": 39,
+  "clauses": 8656
+ },
+ {
+  "name": "Z_83 : C_41 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "vars": 52,
+  "clauses": 22918
+ },
+ {
+  "name": "Z_79 : C_78 + 9 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "vars": 143,
+  "clauses": 10574
+ },
+ {
+  "name": "Z_79 : C_39 + 9 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.05,
+  "vars": 156,
+  "clauses": 25842
+ },
+ {
+  "name": "Z_79 : C_26 + 9 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.75,
+  "vars": 187,
+  "clauses": 39224
+ },
+ {
+  "name": "Z_79 : C_13 + 9 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "vars": null,
+  "clauses": null
+ }
+]

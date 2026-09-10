@@ -1,0 +1,131 @@
+[
+ {
+  "name": "Z_83 : C_82 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.07,
+  "build_s": 747.34,
+  "cap_s": null,
+  "brute": null,
+  "n": 88,
+  "vars": 39,
+  "clauses": 8656,
+  "distinct_pos": 4328,
+  "distinct_neg": 4328,
+  "cliques_s": 39175752,
+  "cliques_t": 39175752,
+  "collapse": 9051.7,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 6806
+  },
+  "order": 6806
+ },
+ {
+  "name": "Z_83 : C_41 + 5 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "build_s": 110.2,
+  "cap_s": null,
+  "brute": null,
+  "n": 88,
+  "vars": 52,
+  "clauses": 22918,
+  "distinct_pos": 11459,
+  "distinct_neg": 11459,
+  "cliques_s": 39175752,
+  "cliques_t": 39175752,
+  "collapse": 3418.8,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 3403
+  },
+  "order": 3403
+ },
+ {
+  "name": "Z_79 : C_78 + 9 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 103.67,
+  "cap_s": null,
+  "brute": null,
+  "n": 88,
+  "vars": 143,
+  "clauses": 10574,
+  "distinct_pos": 5287,
+  "distinct_neg": 5287,
+  "cliques_s": 39175752,
+  "cliques_t": 39175752,
+  "collapse": 7409.8,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 6162
+  },
+  "order": 6162
+ },
+ {
+  "name": "Z_79 : C_39 + 9 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.05,
+  "build_s": 105.23,
+  "cap_s": null,
+  "brute": null,
+  "n": 88,
+  "vars": 156,
+  "clauses": 25842,
+  "distinct_pos": 12921,
+  "distinct_neg": 12921,
+  "cliques_s": 39175752,
+  "cliques_t": 39175752,
+  "collapse": 3031.9,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 3081
+  },
+  "order": 3081
+ },
+ {
+  "name": "Z_79 : C_26 + 9 fixed",
+  "status": "UNSAT",
+  "solve_s": 0.75,
+  "build_s": 107.28,
+  "cap_s": null,
+  "brute": null,
+  "n": 88,
+  "vars": 187,
+  "clauses": 39224,
+  "distinct_pos": 19612,
+  "distinct_neg": 19612,
+  "cliques_s": 39175752,
+  "cliques_t": 39175752,
+  "collapse": 1997.5,
+  "forced_mono_vars": [],
+  "contradictory_vars": [],
+  "translation_fast_path": false,
+  "orbit_sizes": {
+   "min": 1,
+   "max": 2054
+  },
+  "order": 2054
+ },
+ {
+  "name": "Z_79 : C_13 + 9 fixed",
+  "status": "TIMEOUT",
+  "solve_s": 1800.0,
+  "cap_s": 1800.0,
+  "vars": null,
+  "clauses": null,
+  "order": 1027
+ }
+]

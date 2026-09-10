@@ -1,0 +1,328 @@
+[
+ {
+  "name": "S_4 wr AGL(3,2) x S_3 + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.65,
+  "cap_s": null,
+  "brute": {
+   "status": "UNSAT",
+   "s": 0.432,
+   "models": 0
+  },
+  "n": 36,
+  "vars": 19,
+  "clauses": 60,
+  "distinct_pos": 30,
+  "distinct_neg": 30,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 12566.4,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 16128
+  },
+  "order": 887647333515264
+ },
+ {
+  "name": "E_32 : P(2,3) x S_3 + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.73,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 21,
+  "clauses": 74,
+  "distinct_pos": 37,
+  "distinct_neg": 37,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 10189.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 16128
+  },
+  "order": 12386304
+ },
+ {
+  "name": "S_4 wr AGL(3,2) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.6,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 35,
+  "clauses": 116,
+  "distinct_pos": 58,
+  "distinct_neg": 58,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 6499.9,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 16128
+  },
+  "order": 147941222252544
+ },
+ {
+  "name": "E_32 : P(2,3) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.65,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 37,
+  "clauses": 138,
+  "distinct_pos": 69,
+  "distinct_neg": 69,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 5463.7,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 16128
+  },
+  "order": 2064384
+ },
+ {
+  "name": "AGL(1,32) x S_3 + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.7,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 55,
+  "clauses": 592,
+  "distinct_pos": 296,
+  "distinct_neg": 296,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 1273.6,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 2976
+  },
+  "order": 5952
+ },
+ {
+  "name": "AGL(1,32) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.62,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 71,
+  "clauses": 796,
+  "distinct_pos": 398,
+  "distinct_neg": 398,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 947.2,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 992
+  },
+  "order": 992
+ },
+ {
+  "name": "E_32 : U (Sylow 2 of AGL(5,2)) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.93,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 115,
+  "clauses": 632,
+  "distinct_pos": 316,
+  "distinct_neg": 316,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 1193.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 8192
+  },
+  "order": 32768
+ },
+ {
+  "name": "Hol(Z_34) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.67,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 122,
+  "clauses": 1444,
+  "distinct_pos": 722,
+  "distinct_neg": 722,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 522.1,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 17,
+   "max": 544
+  },
+  "order": 544
+ },
+ {
+  "name": "AGL(3,2) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.61,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 126,
+  "clauses": 1006,
+  "distinct_pos": 503,
+  "distinct_neg": 503,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 749.5,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 7,
+   "max": 1344
+  },
+  "order": 1344
+ },
+ {
+  "name": "S_4 wr S_2 + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.61,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 166,
+  "clauses": 1320,
+  "distinct_pos": 660,
+  "distinct_neg": 660,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 571.2,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 1152
+  },
+  "order": 1152
+ },
+ {
+  "name": "S_4 wr S_2 | 34pt + 2 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.6,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 166,
+  "clauses": 1320,
+  "distinct_pos": 660,
+  "distinct_neg": 660,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 571.2,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 1152
+  },
+  "order": 1152
+ },
+ {
+  "name": "Hol(Z_32) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.65,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 207,
+  "clauses": 1964,
+  "distinct_pos": 982,
+  "distinct_neg": 982,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 383.9,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 512
+  },
+  "order": 512
+ },
+ {
+  "name": "AGL1_35_Hall5prime (C7 : Z35*) + 1 fixed -> 36",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 0.74,
+  "cap_s": null,
+  "brute": null,
+  "n": 36,
+  "vars": 386,
+  "clauses": 4644,
+  "distinct_pos": 2322,
+  "distinct_neg": 2322,
+  "cliques_s": 376992,
+  "cliques_t": 376992,
+  "collapse": 162.4,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 7,
+   "max": 168
+  },
+  "order": 168
+ },
+ {
+  "name": "F_186 = C_31:C_6 + 1 fixed -> 36",
+  "status": "TIMEOUT",
+  "solve_s": 300.0,
+  "cap_s": 300.0,
+  "vars": 405,
+  "clauses": null,
+  "order": 186
+ },
+ {
+  "name": "A-Gamma-L(1,8) + 1 fixed -> 36",
+  "status": "TIMEOUT",
+  "solve_s": 300.0,
+  "cap_s": 300.0,
+  "vars": 421,
+  "clauses": null,
+  "order": 168
+ },
+ {
+  "name": "PSL(3,2) + 1 fixed -> 36",
+  "status": "TIMEOUT",
+  "solve_s": 300.0,
+  "cap_s": 300.0,
+  "vars": 434,
+  "clauses": null,
+  "order": 168
+ },
+ {
+  "name": "Z_33:(C_2 x C_2) + 1 fixed -> 36",
+  "status": "TIMEOUT",
+  "solve_s": 300.0,
+  "cap_s": 300.0,
+  "vars": 577,
+  "clauses": null,
+  "order": 132
+ }
+]

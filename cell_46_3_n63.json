@@ -1,0 +1,134 @@
+[
+ {
+  "name": "Z_63 : <2,5> order 2268",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "build_s": 19.94,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 29,
+  "clauses": 14384,
+  "distinct_pos": 256,
+  "distinct_neg": 14128,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 2326.8,
+  "forced_mono_vars": [
+   16,
+   17,
+   22,
+   26
+  ],
+  "translation_fast_path": true,
+  "orbit_sizes": {
+   "min": 21,
+   "max": 2268
+  },
+  "order": 2268
+ },
+ {
+  "name": "Z_63 : <4,5> order 1134",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "build_s": 21.64,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 49,
+  "clauses": 54060,
+  "distinct_pos": 555,
+  "distinct_neg": 53505,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 1073.3,
+  "forced_mono_vars": [
+   18,
+   31,
+   46
+  ],
+  "translation_fast_path": true,
+  "orbit_sizes": {
+   "min": 21,
+   "max": 1134
+  },
+  "order": 1134
+ },
+ {
+  "name": "Z_63 : <2,11> order 1134",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "build_s": 21.32,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 50,
+  "clauses": 54785,
+  "distinct_pos": 537,
+  "distinct_neg": 54248,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 1109.2,
+  "forced_mono_vars": [
+   46
+  ],
+  "translation_fast_path": true,
+  "orbit_sizes": {
+   "min": 21,
+   "max": 1134
+  },
+  "order": 1134
+ },
+ {
+  "name": "Z_63 : <4,10> order 1134",
+  "status": "UNSAT",
+  "solve_s": 0.05,
+  "build_s": 22.21,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 50,
+  "clauses": 54877,
+  "distinct_pos": 550,
+  "distinct_neg": 54327,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 1083.0,
+  "forced_mono_vars": [],
+  "translation_fast_path": true,
+  "orbit_sizes": {
+   "min": 21,
+   "max": 1134
+  },
+  "order": 1134
+ },
+ {
+  "name": "Z_63 : <2,31> order 756",
+  "status": "UNSAT",
+  "solve_s": 0.07,
+  "build_s": 22.67,
+  "cap_s": null,
+  "brute": null,
+  "n": 63,
+  "vars": 63,
+  "clauses": 90594,
+  "distinct_pos": 848,
+  "distinct_neg": 89746,
+  "cliques_s": 595665,
+  "cliques_t": 67945521,
+  "collapse": 702.4,
+  "forced_mono_vars": [
+   25,
+   37,
+   47,
+   56,
+   57
+  ],
+  "translation_fast_path": true,
+  "orbit_sizes": {
+   "min": 21,
+   "max": 756
+  },
+  "order": 756
+ }
+]

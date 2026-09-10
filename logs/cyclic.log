@@ -1,0 +1,17 @@
+Cyclic ladder for R(5,5;4). Restriction: Z_n-invariant colourings.
+DS1 rev #18 p.73 records 35 <= R(5,5;4) [Ex24], i.e. a witness on 34
+points is known. n=34 is therefore a known-answer gate: if this
+search cannot reach 34, it is weaker than the incumbent.
+
+  cyclic R(5,5;4) n=30: 917 orbit vars (vs 27405 full, 29.9x), 9502 clauses, built 1.2s
+  n=30: NO CYCLIC WITNESS in 0.0s. This is a null of the RESTRICTED search only -- it does not bear on whether a general witness exists.
+  cyclic R(5,5;4) n=31: 1015 orbit vars (vs 31465 full, 31.0x), 10962 clauses, built 1.4s
+  n=31: WITNESS FOUND in 9.3s, verified on the full 31465-bit colouring => R(5,5;4) >= 32
+    witness written to witness_n31.json
+  cyclic R(5,5;4) n=32: 1128 orbit vars (vs 35960 full, 31.9x), 12586 clauses, built 1.6s
+  n=32: WITNESS FOUND in 5.3s, verified on the full 35960-bit colouring => R(5,5;4) >= 33
+    witness written to witness_n32.json
+  cyclic R(5,5;4) n=33: 1240 orbit vars (vs 40920 full, 33.0x), 14384 clauses, built 2.0s
+  n=33: WITNESS FOUND in 100.7s, verified on the full 40920-bit colouring => R(5,5;4) >= 34
+    witness written to witness_n33.json
+  cyclic R(5,5;4) n=34: 1368 orbit vars (vs 46376 full, 33.9x), 16368 clauses, built 2.3s

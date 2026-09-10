@@ -1,0 +1,53 @@
+5 group(s), cap 2400s each
+  (0 already decided in cell_46_3_n63.json, skipping those)
+  Z_63 : <2,5> order 2268: 29 vars, 14384 clauses (2326.8x collapse from 595665 cliques), built 19.9s
+    NOTE: 4 orbit(s) are forced both ways -- this class is empty by construction, expect UNSAT
+    no Z_63 : <2,5> order 2268-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_63 : <4,5> order 1134: 49 vars, 54060 clauses (1073.3x collapse from 595665 cliques), built 21.6s
+    NOTE: 3 orbit(s) are forced both ways -- this class is empty by construction, expect UNSAT
+    no Z_63 : <4,5> order 1134-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_63 : <2,11> order 1134: 50 vars, 54785 clauses (1109.2x collapse from 595665 cliques), built 21.3s
+    NOTE: 1 orbit(s) are forced both ways -- this class is empty by construction, expect UNSAT
+    no Z_63 : <2,11> order 1134-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_63 : <4,10> order 1134: 50 vars, 54877 clauses (1083.0x collapse from 595665 cliques), built 22.2s
+    no Z_63 : <4,10> order 1134-invariant witness at n=63 (a null for THIS class only) (0.0s)
+  Z_63 : <2,31> order 756: 63 vars, 90594 clauses (702.4x collapse from 595665 cliques), built 22.7s
+    NOTE: 5 orbit(s) are forced both ways -- this class is empty by construction, expect UNSAT
+    no Z_63 : <2,31> order 756-invariant witness at n=63 (a null for THIS class only) (0.1s)
+[
+ {
+  "name": "Z_63 : <2,5> order 2268",
+  "status": "UNSAT",
+  "solve_s": 0.01,
+  "vars": 29,
+  "clauses": 14384
+ },
+ {
+  "name": "Z_63 : <4,5> order 1134",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "vars": 49,
+  "clauses": 54060
+ },
+ {
+  "name": "Z_63 : <2,11> order 1134",
+  "status": "UNSAT",
+  "solve_s": 0.04,
+  "vars": 50,
+  "clauses": 54785
+ },
+ {
+  "name": "Z_63 : <4,10> order 1134",
+  "status": "UNSAT",
+  "solve_s": 0.05,
+  "vars": 50,
+  "clauses": 54877
+ },
+ {
+  "name": "Z_63 : <2,31> order 756",
+  "status": "UNSAT",
+  "solve_s": 0.07,
+  "vars": 63,
+  "clauses": 90594
+ }
+]

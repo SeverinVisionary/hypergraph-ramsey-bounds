@@ -1,0 +1,6 @@
+Cyclic ladder for R(5,5;4). Restriction: Z_n-invariant colourings.
+DS1 rev #18 p.73 records 35 <= R(5,5;4) [Ex24], i.e. a witness on 34
+points is known. n=34 is therefore a known-answer gate: if this
+search cannot reach 34, it is weaker than the incumbent.
+
+  cyclic R(5,5;4) n=34: 1368 orbit vars (vs 46376 full, 33.9x), 16368 clauses, built 2.3s

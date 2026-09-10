@@ -1,0 +1,26 @@
+[
+  {
+    "n": 30,
+    "status": "UNSAT_CYCLIC",
+    "solve_s": 0.007735252380371094,
+    "orbit_vars": 917
+  },
+  {
+    "n": 31,
+    "status": "SAT",
+    "solve_s": 9.293078422546387,
+    "orbit_vars": 1015
+  },
+  {
+    "n": 32,
+    "status": "SAT",
+    "solve_s": 5.341886043548584,
+    "orbit_vars": 1128
+  },
+  {
+    "n": 33,
+    "status": "SAT",
+    "solve_s": 77.74761700630188,
+    "orbit_vars": 1240
+  }
+]

@@ -1,0 +1,14 @@
+witness      witness_444_3_n81.json
+declares     n=81 sizes=[4, 4, 4] k=3  Z_79 : C_13 + 2 fixed
+certifies    R(4,4,4;3) >= 82
+sha256       6980873abe5f16e44e15ba8c8fb6832b958dbf8888daf200f9b88842021eaf56
+faces        85320 expected C(81,3)=85320
+colour 0     28756
+colour 1     27729
+colour 2     28835
+scanning all C(81,4) = 1663740 four-subsets ...
+  monochromatic 4-sets: 0   (want 0)
+control: recolour one triple and require the scan to notice ...
+  monochromatic 4-sets after perturbation: >=1   (want >=1)
+
+OK: R(4,4,4;3) >= 82, complete enumeration, three colours.

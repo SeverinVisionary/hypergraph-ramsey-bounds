@@ -1,0 +1,6 @@
+enumerating every Z_83 : C_41-invariant good colouring at n=83, sizes [4, 4, 4], k=3
+  generators SHA-256 f64d23e0da257053794f87fe8dc9c0e72718c0817390e6eb0515ad90f9bb0b1a
+
+36 invariant good colouring(s), search exhausted (the formula is UNSAT once all 36 are blocked)
+  colour classes 27224/30627/34030: 24 colouring(s)
+  colour classes 30627/30627/30627: 12 colouring(s)

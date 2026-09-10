@@ -1,0 +1,249 @@
+[
+ {
+  "name": "S_4 wr AGL(3,2) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.41,
+  "cap_s": null,
+  "brute": {
+   "status": "UNSAT",
+   "s": 0.001,
+   "models": 0
+  },
+  "n": 34,
+  "vars": 14,
+  "clauses": 44,
+  "distinct_pos": 22,
+  "distinct_neg": 22,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 12648.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 16128
+  },
+  "order": 147941222252544
+ },
+ {
+  "name": "E_32 : P(2,3) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.45,
+  "cap_s": null,
+  "brute": {
+   "status": "UNSAT",
+   "s": 0.008,
+   "models": 0
+  },
+  "n": 34,
+  "vars": 16,
+  "clauses": 58,
+  "distinct_pos": 29,
+  "distinct_neg": 29,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 9595.0,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 16128
+  },
+  "order": 2064384
+ },
+ {
+  "name": "AGL(1,32) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.38,
+  "cap_s": null,
+  "brute": null,
+  "n": 34,
+  "vars": 51,
+  "clauses": 576,
+  "distinct_pos": 288,
+  "distinct_neg": 288,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 966.2,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 248,
+   "max": 992
+  },
+  "order": 992
+ },
+ {
+  "name": "E_32 : U (Sylow 2 of AGL(5,2)) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.63,
+  "cap_s": null,
+  "brute": null,
+  "n": 34,
+  "vars": 65,
+  "clauses": 330,
+  "distinct_pos": 165,
+  "distinct_neg": 165,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 1686.4,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 8192
+  },
+  "order": 32768
+ },
+ {
+  "name": "Hol(Z_34) | 34pt",
+  "status": "SAT",
+  "solve_s": 0.02,
+  "build_s": 0.4,
+  "cap_s": null,
+  "brute": null,
+  "n": 34,
+  "vars": 95,
+  "clauses": 1040,
+  "distinct_pos": 520,
+  "distinct_neg": 520,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 535.1,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 136,
+   "max": 544
+  },
+  "order": 544
+ },
+ {
+  "name": "S_4 wr S_2 | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.41,
+  "cap_s": null,
+  "brute": null,
+  "n": 34,
+  "vars": 107,
+  "clauses": 840,
+  "distinct_pos": 420,
+  "distinct_neg": 420,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 662.5,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 1152
+  },
+  "order": 1152
+ },
+ {
+  "name": "Hol(Z_32) | 34pt",
+  "status": "UNSAT",
+  "solve_s": 0.0,
+  "build_s": 0.43,
+  "cap_s": null,
+  "brute": null,
+  "n": 34,
+  "vars": 141,
+  "clauses": 1342,
+  "distinct_pos": 671,
+  "distinct_neg": 671,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 414.7,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 8,
+   "max": 512
+  },
+  "order": 512
+ },
+ {
+  "name": "F_186 = C_31:C_6 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 296,
+  "clauses": null,
+  "order": 186
+ },
+ {
+  "name": "Z_33:(C_2 x C_2) | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 431,
+  "clauses": null,
+  "order": 132
+ },
+ {
+  "name": "S_4 x S_3 | 34pt",
+  "status": "UNSAT",
+  "solve_s": 15.61,
+  "build_s": 0.49,
+  "cap_s": null,
+  "brute": null,
+  "n": 34,
+  "vars": 507,
+  "clauses": 4934,
+  "distinct_pos": 2467,
+  "distinct_neg": 2467,
+  "cliques_s": 278256,
+  "cliques_t": 278256,
+  "collapse": 112.8,
+  "forced_mono_vars": [],
+  "orbit_sizes": {
+   "min": 1,
+   "max": 144
+  },
+  "order": 144
+ },
+ {
+  "name": "F_93 = C_31:C_3 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 526,
+  "clauses": null,
+  "order": 93
+ },
+ {
+  "name": "D_34 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 752,
+  "clauses": null,
+  "order": 68
+ },
+ {
+  "name": "D_33 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 771,
+  "clauses": null,
+  "order": 66
+ },
+ {
+  "name": "D_32 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 810,
+  "clauses": null,
+  "order": 64
+ },
+ {
+  "name": "D_31 | 34pt",
+  "status": "TIMEOUT",
+  "solve_s": 60.0,
+  "cap_s": 60.0,
+  "vars": 846,
+  "clauses": null,
+  "order": 62
+ }
+]

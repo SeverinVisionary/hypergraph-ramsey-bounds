@@ -1,0 +1,13 @@
+$ python3 verify_witness_n35.py
+witness      witness_n35.json
+declares     n=35 s=5 t=5 k=4  Hol(Z_34)
+certifies    R(5,5;4) >= 36
+sha256       54119af44254165930c290457bad04742218deb9185ce6b2f0f97931c00ac6f3
+
+checker 1: verify_scratch (explicit nested loops)
+  PASS: n=35: 52360 faces, 324632 five-sets, 0 monochromatic  =>  R(5,5;4) >= 36
+checker 2: independent_check (no rank arithmetic anywhere)
+  PASS: n=35 k=4: 52360 colours, 649264 cliques checked, 0 monochromatic  =>  R(5,5;4) >= 36
+
+OK: R(5,5;4) >= 36, two independent checkers, bound to sha256 54119af442541659...
+exit=0

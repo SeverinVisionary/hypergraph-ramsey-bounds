@@ -1,0 +1,30 @@
+[
+ {
+  "p": 13,
+  "n": 14,
+  "name": "Z_13 : C_6 + 1 fixed",
+  "order": 78,
+  "abs_C_p_2": 78,
+  "p_mod_4": 1,
+  "satisfies_first_hypothesis": true,
+  "satisfies_second_hypothesis": false,
+  "vars": 24,
+  "clauses": 89,
+  "status": "SAT",
+  "verified": true
+ },
+ {
+  "p": 37,
+  "n": 38,
+  "name": "Z_37 : C_18 + 1 fixed",
+  "order": 666,
+  "abs_C_p_2": 666,
+  "p_mod_4": 1,
+  "satisfies_first_hypothesis": true,
+  "satisfies_second_hypothesis": false,
+  "vars": 48,
+  "clauses": 418,
+  "status": "SAT",
+  "verified": true
+ }
+]

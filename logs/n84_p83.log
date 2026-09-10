@@ -1,0 +1,5 @@
+R(4,4,4;3) at n=84: 2 group(s), cap 1200s each
+  Z_83 : C_82 + 1 fixed: 15 orbits x 3 colours = 45 vars, 819 clauses, built 2.2s
+    no witness in this symmetry class (a null for THIS class only) (0.0s)
+  Z_83 : C_41 + 1 fixed: 28 orbits x 3 colours = 84 vars, 1813 clauses, built 2.2s
+    no witness in this symmetry class (a null for THIS class only) (0.0s)
