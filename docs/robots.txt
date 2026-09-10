@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://severinvisionary.github.io/hypergraph-ramsey-bounds/sitemap.xml

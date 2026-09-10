@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Three improved hypergraph Ramsey lower bounds | Small Ramsey Numbers §7.1(a)</title>
+<link rel="canonical" href="https://severinvisionary.github.io/hypergraph-ramsey-bounds/">
+<meta name="description" content="Explicit group-invariant colourings improving three entries of section 7.1(a) of the dynamic survey Small Ramsey Numbers: R(4,4,4;3) >= 84, R(4,6;3) >= 64 and R(5,5;4) >= 36. Each witness is a table over group orbits, regenerated without a solver and verified by complete enumeration under a hash-bound run.">
+<meta name="keywords" content="Ramsey theory, hypergraph Ramsey numbers, 3-uniform hypergraphs, 4-uniform hypergraphs, lower bounds, group-invariant colouring, affine group, SAT solving, DRAT proof, Small Ramsey Numbers, Radziszowski">
+<meta name="author" content="Hanyu Yang">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+<!-- Google Scholar / Highwire Press -->
+<meta name="citation_title" content="Three improved lower bounds for hypergraph Ramsey numbers: R(4,4,4;3) >= 84, R(4,6;3) >= 64, R(5,5;4) >= 36">
+<meta name="citation_author" content="Yang, Hanyu">
+<meta name="citation_author_orcid" content="0009-0005-0419-4070">
+<meta name="citation_publication_date" content="2026/09/10">
+<meta name="citation_online_date" content="2026/09/10">
+<meta name="citation_abstract_html_url" content="https://severinvisionary.github.io/hypergraph-ramsey-bounds/">
+<meta name="citation_public_url" content="https://severinvisionary.github.io/hypergraph-ramsey-bounds/">
+<meta name="citation_technical_report_institution" content="Independent researcher">
+<meta name="citation_language" content="en">
+<meta name="citation_keywords" content="Ramsey theory; hypergraph Ramsey numbers; lower bounds; group-invariant colouring; SAT solving">
+
+<!-- Dublin Core -->
+<meta name="DC.title" content="Three improved lower bounds for hypergraph Ramsey numbers">
+<meta name="DC.creator" content="Yang, Hanyu">
+<meta name="DC.date" content="2026-09-10">
+<meta name="DC.identifier" content="https://github.com/SeverinVisionary/hypergraph-ramsey-bounds">
+<meta name="DC.rights" content="MIT (code); CC BY 4.0 (documentation, data and witnesses)">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Three improved hypergraph Ramsey lower bounds">
+<meta property="og:description" content="R(4,4,4;3) >= 84, R(4,6;3) >= 64 and R(5,5;4) >= 36, each witnessed by a group-invariant colouring given as a small table over group orbits and verified by complete enumeration.">
+<meta property="og:url" content="https://severinvisionary.github.io/hypergraph-ramsey-bounds/">
+<meta property="og:site_name" content="Hypergraph Ramsey lower bounds">
+<meta name="twitter:card" content="summary">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "Three improved lower bounds for hypergraph Ramsey numbers: R(4,4,4;3) >= 84, R(4,6;3) >= 64, R(5,5;4) >= 36",
+  "name": "Three improved lower bounds for hypergraph Ramsey numbers",
+  "author": {
+    "@type": "Person",
+    "name": "Hanyu Yang",
+    "identifier": "https://orcid.org/0009-0005-0419-4070",
+    "url": "https://orcid.org/0009-0005-0419-4070"
+  },
+  "datePublished": "2026-09-10",
+  "inLanguage": "en",
+  "identifier": "https://github.com/SeverinVisionary/hypergraph-ramsey-bounds",
+  "sameAs": [
+    "https://github.com/SeverinVisionary/hypergraph-ramsey-bounds"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": "Ramsey theory, hypergraph Ramsey numbers, 3-uniform hypergraphs, lower bounds, group-invariant colouring, SAT solving",
+  "abstract": "Under the convention of the dynamic survey Small Ramsey Numbers that R is the least n forcing a monochromatic clique, a good colouring on n points proves R >= n+1. Three entries of section 7.1(a) are improved: R(4,4,4;3) >= 84 from an 83-point 3-colouring, R(4,6;3) >= 64 from a 63-point 2-colouring, and R(5,5;4) >= 36 from a 35-point 2-colouring. Each witness is given as a table over the orbits of an affine group and is regenerated from that table without a solver; each is verified by complete enumeration of all relevant subsets under a hash-bound run. An accompanying obstruction theorem shows that when an affine group has order C(p,2) and its multiplier subgroup omits -1, the action on unordered pairs is regular, so adjoining a fixed point forces every triple through that point into one colour; for the diagonal problem this is impossible once the base reaches or exceeds the Ramsey number in one fewer colour. Counterexamples at p = 13 and p = 37 show each hypothesis is necessary.",
+  "isBasedOn": {
+    "@type": "SoftwareSourceCode",
+    "codeRepository": "https://github.com/SeverinVisionary/hypergraph-ramsey-bounds",
+    "programmingLanguage": ["Python"],
+    "license": "https://opensource.org/licenses/MIT"
+  },
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "name": "Small Ramsey Numbers",
+    "identifier": "https://doi.org/10.37236/21"
+  }
+}
+</script>
+
+<style>
+  :root{
+    color-scheme: light;
+    --bg:#fbfbfa; --panel:#fff; --ink:#1a1d21; --ink2:#4a5158; --ink3:#767e86;
+    --rule:#dfe3e7; --accent:#14563d; --accent-soft:#e3f0e9; --mono-bg:#f2f4f5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --bg:#111417; --panel:#181c20; --ink:#e6e9ec; --ink2:#a9b1b8; --ink3:#7d868e;
+      --rule:#2b3238; --accent:#6fc79c; --accent-soft:#152a21; --mono-bg:#1e2429;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg:#111417; --panel:#181c20; --ink:#e6e9ec; --ink2:#a9b1b8; --ink3:#7d868e;
+    --rule:#2b3238; --accent:#6fc79c; --accent-soft:#152a21; --mono-bg:#1e2429;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  code,pre,.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  main{max-width:820px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-size:28px;line-height:1.25;margin:0 0 12px;text-wrap:balance}
+  h2{font-size:20px;margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+  p{margin:0 0 14px;max-width:68ch}
+  a{color:var(--accent)}
+  .sub{color:var(--ink2);font-size:17px;margin-bottom:22px}
+  .meta{font-size:14px;color:var(--ink3);border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);padding:12px 0;margin:22px 0}
+  .headline{background:var(--accent-soft);border:1px solid var(--rule);
+    padding:16px 18px;margin:22px 0;font-size:18px}
+  .headline .m{font-weight:600;font-size:20px}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;margin:8px 0 4px}
+  .wrap{overflow-x:auto}
+  th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+  th{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink3);white-space:nowrap}
+  td.n{text-align:right;font-variant-numeric:tabular-nums;font-family:ui-monospace,Menlo,monospace;white-space:nowrap}
+  td.s{white-space:nowrap}
+  pre{background:var(--mono-bg);border:1px solid var(--rule);padding:14px 16px;
+    overflow-x:auto;font-size:13.5px;margin:0 0 14px}
+  ul{padding-left:22px;max-width:68ch}
+  li{margin-bottom:7px}
+  footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--rule);
+    font-size:13.5px;color:var(--ink3)}
+</style>
+</head>
+<body>
+<main>
+
+<h1>Three improved lower bounds for hypergraph Ramsey numbers</h1>
+<p class="sub">Explicit group-invariant colourings improving three entries of
+&sect;7.1(a) of the dynamic survey <em>Small Ramsey Numbers</em>. Each bound is
+carried by an object small enough to print, not by a search log.</p>
+
+<div class="meta">
+Hanyu Yang &middot;
+<a href="https://orcid.org/0009-0005-0419-4070">ORCID 0009-0005-0419-4070</a> &middot;
+10 September 2026 &middot;
+<a href="https://github.com/SeverinVisionary/hypergraph-ramsey-bounds">Repository</a>
+</div>
+
+<div class="headline">
+<span class="m">R(4,4,4;3) &ge; 84</span> &nbsp;
+<span class="m">R(4,6;3) &ge; 64</span> &nbsp;
+<span class="m">R(5,5;4) &ge; 36</span>
+</div>
+
+<p>Under the survey's convention that <code>R</code> is the <em>least</em>
+<code>n</code> forcing a monochromatic clique, a good colouring on
+<code>n</code> points proves <code>R &ge; n+1</code>.</p>
+
+<div class="wrap">
+<table>
+<tr><th>cell</th><th>survey rev. #18</th><th>this work</th><th>witness</th></tr>
+<tr><td class="s"><code>R(4,4,4;3)</code></td><td class="n">&ge; 79</td><td class="n"><strong>&ge; 84</strong></td><td>83 points, 3 colours</td></tr>
+<tr><td class="s"><code>R(4,6;3)</code></td><td class="n">&ge; 63</td><td class="n"><strong>&ge; 64</strong></td><td>63 points, 2 colours</td></tr>
+<tr><td class="s"><code>R(5,5;4)</code></td><td class="n">&ge; 35</td><td class="n"><strong>&ge; 36</strong></td><td>35 points, 2 colours</td></tr>
+</table>
+</div>
+
+<h2>The objects, not the search</h2>
+<p>Each result is a group-invariant colouring given as a small table over group
+orbits rather than as solver output. For <code>R(4,4,4;3)</code>: let
+<code>p = 83</code>, let <code>a = 9</code> generate the order-41 subgroup of
+<code>Z<sub>83</sub>*</code>, and let <code>G = {x &rarr; a<sup>i</sup>x + b}</code>,
+of order 3403. <code>G</code> acts on the 91,881 triples of
+<code>Z<sub>83</sub></code> with exactly <strong>27 orbits, each free of size
+3403</strong>; 27 numbers give the colours, nine per colour, so the three
+colour classes are equal at 30,627 each.</p>
+
+<p>That equality is <em>not</em> forced. Regularity forces each class to be a
+multiple of 3403, and enumerating every invariant good colouring of this class
+gives <strong>36</strong> of them &mdash; twelve splitting 9/9/9 and
+twenty-four splitting 8/9/10. The other two witnesses use 120 and 107 orbits,
+under actions that are not free. Every construction regenerates its whole
+colouring from its table alone, with no solver.</p>
+
+<h2>Verification</h2>
+<p>All twelve deposited witnesses are checked by complete enumeration, each
+under its own hash-bound run. For the three headline objects that is
+<strong>1,837,620</strong> four-subsets at <code>n = 83</code>,
+<strong>324,632</strong> five-subsets at <code>n = 35</code>, and all four- and
+six-subsets of a 63-set. The <code>R(4,6;3)</code> check runs <strong>both ways
+round</strong>: the intended reading gives zero monochromatic cliques and the
+inverse reading gives 102,627, which is what makes the first number
+meaningful.</p>
+
+<p>Negative results carry certificates too: an independent RUP/RAT proof
+checker re-certifies five UNSAT symmetry classes of the <code>n = 63</code>
+tower, and its discriminating control weakens a real instance until it becomes
+satisfiable and requires the checker to refuse the original proof.</p>
+
+<h2>An obstruction theorem</h2>
+<p>If an affine group satisfies <code>|G| = C(p,2)</code> <strong>and</strong>
+its multiplier subgroup omits <code>-1</code> (equivalently
+<code>p &equiv; 3 mod 4</code>), it acts regularly on unordered pairs. Adjoining
+a fixed point then forces every triple through that point into a single orbit,
+and hence one colour; no base triple may take that colour, so for the diagonal
+problem the base must be coloured with <code>m-1</code> colours while avoiding a
+monochromatic <code>K<sub>4</sub><sup>(3)</sup></code> &mdash; impossible only
+once the base reaches or exceeds the <code>(m-1)</code>-colour Ramsey number.
+<strong>The threshold is a hypothesis, not a detail:</strong> at
+<code>m = 3</code> it is <code>R(4,4;3) = 13</code> and both towers clear it; at
+<code>m = 4</code> it is <code>R(4,4,4;3)</code> itself, and <code>p = 79</code>
+does not. Both group conditions are necessary too: for
+<code>p &equiv; 1 (mod 4)</code> the conclusion genuinely fails, and the
+corresponding classes are satisfiable at <code>p = 13</code> and
+<code>p = 37</code>.</p>
+
+<h2>What is not claimed</h2>
+<ul>
+<li><strong>Novelty is provisional.</strong> Both incumbent constructions are
+<em>personal communications</em> (2018 and 2021) that the bibliographic sources
+searched could not supply. Nothing stronger was found, but a newer unpublished
+communication is not excluded.</li>
+<li><strong>No upper bounds.</strong> The survey prints none for any of these
+cells, so these improvements do not narrow a stated gap.</li>
+<li><strong>The incumbent constructions were not re-verified here.</strong>
+Their sizes and hashes were read from the public addendum.</li>
+<li><strong>Every negative result is a statement about a symmetry class</strong>,
+never about a Ramsey number &mdash; a class can be empty while the cell is wide
+open.</li>
+</ul>
+
+<h2>Reproducing</h2>
+<pre>git clone https://github.com/SeverinVisionary/hypergraph-ramsey-bounds
+cd hypergraph-ramsey-bounds
+pip install -r requirements.txt
+bash reproduce.sh --full</pre>
+<p>The harness re-derives every claim above and refuses to report success for a
+step that produced no evidence.</p>
+
+<footer>
+Code MIT; documentation, data and witnesses CC BY 4.0.
+Cite via <code>CITATION.cff</code> in the repository.
+</footer>
+
+</main>
+</body>
+</html>
