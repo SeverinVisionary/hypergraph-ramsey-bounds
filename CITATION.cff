@@ -40,8 +40,12 @@ abstract: >-
   case the top class of the tower -- and each of those base classes holds a
   witness; what the theorem explains without computation is that adjoining a
   fixed point empties them, so Z_83 : C_41 + 1 fixed and Z_79 : C_39 + 1 fixed
-  are UNSAT. The order condition alone is insufficient:
-  for p = 1 mod 4 there are two pair-orbits and the conclusion fails. Novelty is provisional: both incumbent bounds are unpublished personal
+  are UNSAT. The order condition alone is insufficient. When p is congruent to
+  1 modulo 4, the index-two multiplier subgroup contains -1 and there are two
+  pair-orbits. The three-colour fixed-point classes at p = 13 and p = 37 are
+  satisfiable. These are specific counterexamples to an order-only obstruction,
+  not a classification of all such primes or a general independence result for
+  every hypothesis. Novelty is provisional: both incumbent bounds are unpublished personal
   communications, which were not obtained through the bibliographic sources
   searched; that is a search boundary rather than a claim that they can never
   be obtained.

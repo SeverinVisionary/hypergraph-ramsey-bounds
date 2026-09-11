@@ -14,10 +14,13 @@ exit:
   * zero monochromatic K_4 in colour 0 and zero monochromatic K_6 in colour 1,
     which is the claim;
   * 102,627 monochromatic K_4 in colour 1 under the REVERSED reading of the
-    convention. That number is what makes the first one meaningful: a checker
-    that returns zero for everything would also return zero here. The first
-    verification script written for this witness had the convention backwards
-    and reported those 102,627 as a failure of the witness.
+    convention. Under the intended convention, this count is allowed and
+    provides a discriminating control against certain implementation failures;
+    it does not establish the convention or validate the K_6 branch. A separate
+    six-vertex control assigns colour 1 to all twenty triples and requires the
+    K_6 detector to report one violation. The first verification script written
+    for this witness had the convention backwards and reported those 102,627 as
+    a failure of the witness.
 """
 
 from __future__ import annotations
