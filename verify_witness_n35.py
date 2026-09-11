@@ -12,8 +12,10 @@ Runs both from-scratch checkers on the same object:
   * independent_check.py -- never computes a rank at all, pairing the colour
     list against a fresh enumeration and working with frozensets thereafter.
 
-They share no code with each other or with the search, so a systematic error in
-the index convention cannot be common to them.
+They use different implementations from each other and from the search, which
+reduces common implementation failure modes. They still rely on the stated
+serialization, runtime, and mathematical specification; this is not a proof
+that a common specification error is impossible.
 """
 
 from __future__ import annotations
