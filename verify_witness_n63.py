@@ -2,12 +2,9 @@
 
 Run:  python3 verify_witness_n63.py
 
-Exists because the log that used to stand as evidence for this claim was a run
-of a throwaway script that is not in this package, and that run CRASHED
-partway through with a KeyError -- after printing the reverse-reading count and
-before ever reaching the intended-reading result. A log that stops mid-scan is
-not evidence of a completed scan, and a script that does not ship cannot be
-re-run by a reader. This file replaces both.
+This wrapper binds the declared convention and witness vector to a complete
+two-way check. It is shipped so that the reader can rerun the stated checks
+against the exact witness bytes.
 
 Three numbers have to come out right, and any one of them wrong is a non-zero
 exit:
@@ -87,12 +84,8 @@ def main():
           f"{doc.get('ansatz')}")
     print(f"certifies    {doc.get('certifies')}")
 
-    # PRINTED IS NOT CHECKED. This wrapper scans a hard-coded (4,6;3) reading,
-    # so a file declaring anything else was displayed, contradicted by the
-    # scan, and still exited 0 -- the declaration was decoration. Running it
-    # with s=6,t=4 printed that declaration, printed 102,627 colour-1 K_4
-    # violations falsifying it, and reported success. The file's own statement
-    # of what it is must agree with what is about to be verified.
+    # The wrapper scans a hard-coded (4,6;3) reading, so the declaration must
+    # agree with the target that is actually checked.
     WANT = {"s": 4, "t": 6, "k": 3}
     declared = {f: doc.get(f) for f in WANT}
     if declared != WANT:

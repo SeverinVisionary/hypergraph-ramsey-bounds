@@ -96,19 +96,21 @@ every number quoted in the prose.
 
 `THEOREMS.md` states the three obstruction results, which rule out symmetry
 classes before any solver runs. The one worth reading is **Theorem B**: if
-`|G| = C(p,2)` **and** `-1` is not in the multiplier subgroup — equivalently
-`p = 3 (mod 4)` — then the affine group is regular on unordered pairs, so
+`|G| = C(p,2)` and the index-two multiplier subgroup omits `-1` — equivalently,
+within that index-two family, `p = 3 (mod 4)` — then the affine group is regular on unordered pairs, so
 adjoining a fixed point forces every triple through it into one orbit and one
 colour; the base must then be coloured with one fewer colour while avoiding a
 monochromatic `K_4^(3)`, impossible once `p >= R(4,4;3) = 13`. This explains why
 the pair-regular class of each tower here -- `Z_83 : C_41` and `Z_79 : C_39`,
 not the top of either tower -- dies the moment a fixed point is added.
 
-**Both hypotheses are needed.** For `p = 1 (mod 4)`, `-1` is a quadratic
-residue, `x -> -x + (a+b)` stabilises every pair, and there are two pair-orbits
-rather than one — and the conclusion genuinely fails, with satisfiable classes
-at `p = 13` and `p = 37` — both deposited, with
-`logs/theorem_b_counterexamples.log` the run that produces and verifies them.
+**The order condition alone is insufficient.** For `p = 1 (mod 4)`, `-1` is a
+quadratic residue, `x -> -x + (a+b)` stabilises every pair, and there are two
+pair-orbits rather than one. The conclusion genuinely fails, with satisfiable
+classes at `p = 13` and `p = 37`; these examples target the omitted-`-1`
+hypothesis and do not by themselves establish independence of every condition
+in a broader generalisation. The classes are accompanied by the run recorded
+in `logs/theorem_b_counterexamples.log`, which produces and verifies them.
 Dropping the second hypothesis excludes thirteen
 classes that are not in fact excluded; the counterexamples are recorded in
 `THEOREMS.md`.
@@ -116,7 +118,7 @@ classes that are not in fact excluded; the counterexamples are recorded in
 ## What is not claimed
 
 - **Novelty is provisional.** Both incumbents are *personal communications*
-  (`[Dyb3]` 2018, `[Ex24]` 2021), which were not obtainable through the sources
+  (`[Dyb3]` 2018, `[Ex24]` 2021), which were not obtained through the sources
   searched. MathSciNet, zbMATH,
   Google Scholar, DataCite and the incumbent's own public addendum were
   searched and nothing stronger was found. The incumbent's one published paper
@@ -143,10 +145,9 @@ classes that are not in fact excluded; the counterexamples are recorded in
   33-vertex construction, so that incumbent was never seen.
 - **Every negative result is about a symmetry class, never about a Ramsey
   number.** A class can be empty while the cell is wide open.
-- **The search was cheap.** Several witnesses were found in seconds. That is a
-  reason to expect these cells have attracted little attention; it is not a
-  demonstration that they were unexplored, and not a claim that anything
-  difficult was done here.
+- **Runtime is not a novelty argument.** A short local run can coexist with
+  prior unpublished, poorly indexed or differently described work; the
+  priority limits above remain in force.
 
 ## Layout
 
@@ -155,7 +156,7 @@ classes that are not in fact excluded; the counterexamples are recorded in
     ansatz.py            two-colour orbit-SAT engine
     multicolour.py       m-colour engine
     obstruction_general.py
-    drat_check.py        independent RUP/RAT proof checker
+    drat_check.py        separate RUP/RAT proof checker
     verify_scratch.py    verifier sharing no code with the producer
     witness_*.json       the certificates
     groups*.json         the symmetry towers

@@ -19,12 +19,13 @@ abstract: >-
   affine or holomorph group and is presented as a table over group orbits -- 27,
   120 and 107 numbers respectively -- from which the full colouring is
   regenerated without a solver. Each is verified by complete enumeration using a
-  checker that shares no code with the search. Five UNSAT symmetry classes of the
+  checker with a different implementation from the search. Five UNSAT symmetry classes of the
   n = 63 tower can be re-certified by rerunning the solver and replaying its
-  proof with an independent RUP/RAT checker; the proof clauses themselves are not
+  proof with a separate RUP/RAT checker; the proof clauses themselves are not
   deposited. An accompanying
   obstruction theorem shows that an affine group whose order equals C(p,2) and
-  whose multiplier subgroup omits -1 (equivalently p = 3 mod 4) acts regularly
+  whose multiplier subgroup has index two and omits -1 (equivalently, within
+  that index-two family, p = 3 mod 4) acts regularly
   on unordered pairs, so adjoining a fixed point forces every triple through
   that point into one orbit and hence one colour. For the diagonal problem
   R(4,...,4;3) in m colours that leaves the base needing an (m-1)-colouring of
@@ -39,10 +40,11 @@ abstract: >-
   case the top class of the tower -- and each of those base classes holds a
   witness; what the theorem explains without computation is that adjoining a
   fixed point empties them, so Z_83 : C_41 + 1 fixed and Z_79 : C_39 + 1 fixed
-  are UNSAT. Both hypotheses are necessary:
+  are UNSAT. The order condition alone is insufficient:
   for p = 1 mod 4 there are two pair-orbits and the conclusion fails. Novelty is provisional: both incumbent bounds are unpublished personal
-  communications, which were not obtainable through the bibliographic sources
-  searched.
+  communications, which were not obtained through the bibliographic sources
+  searched; that is a search boundary rather than a claim that they can never
+  be obtained.
 keywords:
   - Ramsey theory
   - hypergraph Ramsey numbers

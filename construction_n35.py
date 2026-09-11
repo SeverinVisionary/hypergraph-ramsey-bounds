@@ -12,8 +12,11 @@ the group fixes. Let
 with 3 a primitive root mod 34, so |<3>| = phi(34) = 16 and |G| = 544. G acts on
 the C(35,4) = 52,360 four-subsets of the 35-point set with exactly 107 orbits.
 
-The action is not free: orbit sizes are 544 (87 orbits), 272 (17) and 136 (3),
-the short ones being four-sets stabilised by part of the multiplier subgroup.
+The action is not free: orbit sizes are 544 (87 orbits), 272 (17) and 136 (3).
+The short orbits come from nontrivial affine stabilisers, not necessarily from
+pure multipliers. For example, T = {0, 1, 17, 18} has stabiliser
+{(u,b) = (1,0), (1,17), (-1,1), (-1,18)} of order 4, so its orbit has size
+544/4 = 136. This distinction matters when reconstructing the orbit table.
 Compare `construction.py`, where the 83-point action IS free and the colour
 classes happen to come out exactly equal -- freeness forces each class to be a
 multiple of the orbit size, not to be equal; the enumeration there finds
@@ -24,10 +27,12 @@ TABLE below maps each orbit representative to its colour.
 THEOREM. No 5-subset of the 35-point set has all five of its four-subsets the
 same colour. Hence R(5,5;4) >= 36.
 
-This is the cell whose incumbent is [Ex24] -- G. Exoo, personal communication
-(2021) -- which is unobtainable. Its public page still shows a weaker 33-vertex
-construction. So unlike the other two cells, the comparison here can never be
-made against an object, only against a number DS1 prints.
+The incumbent bound is attributed in DS1 to [Ex24] -- G. Exoo, personal
+communication (2021). The corresponding construction was not obtained through
+the searches documented here, so the comparison is with the bound recorded in
+DS1 rather than with an independently inspected incumbent witness. This does
+not exclude later access to that construction, differently described published
+work, or newer unpublished constructions.
 """
 
 N = 35

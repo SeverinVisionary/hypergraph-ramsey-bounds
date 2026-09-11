@@ -66,7 +66,7 @@ def main():
               "witness", file=sys.stderr)
         return 1
 
-    print(f"\nOK: R(5,5;4) >= {doc['n'] + 1}, two independent checkers, bound "
+    print(f"\nOK: R(5,5;4) >= {doc['n'] + 1}, two differently implemented checkers, bound "
           f"to sha256 {got[:16]}...")
     return 0
 

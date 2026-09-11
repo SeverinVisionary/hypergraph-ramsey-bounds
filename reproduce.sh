@@ -203,7 +203,7 @@ run "construction_n63 tests"  $PY -m pytest $PYTEST_ARGS test_construction_n63.p
 run "construction_n35 tests"  $PY -m pytest $PYTEST_ARGS test_construction_n35.py
 
 echo
-echo "== independent verifier, no shared code with the search =="
+echo "== verifier with a different implementation from the search =="
 run "verify_scratch"          $PY -m pytest $PYTEST_ARGS test_verify_scratch.py
 # Hash-bound and two-way: the reversed reading must return 102,627, or a
 # checker that says zero to everything would pass the line above.
@@ -238,7 +238,7 @@ SHA
     "$2"*) ;;
     *) echo "witness_n$1.json hashes to $sha, expected $2..." >&2; exit 2 ;;
   esac
-  EXPECT="two independent checkers" \
+  EXPECT="two differently implemented checkers" \
   run "R(5,5;4) witness at n=$1" \
       $PY verify_witness_n35.py --witness "witness_n$1.json" --expect-sha "$sha"
 done

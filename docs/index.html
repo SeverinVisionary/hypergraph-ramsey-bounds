@@ -57,7 +57,7 @@
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "keywords": "Ramsey theory, hypergraph Ramsey numbers, 3-uniform hypergraphs, lower bounds, group-invariant colouring, SAT solving",
-  "abstract": "Under the convention of the dynamic survey Small Ramsey Numbers that R is the least n forcing a monochromatic clique, a good colouring on n points proves R >= n+1. Three entries of section 7.1(a) are improved: R(4,4,4;3) >= 84 from an 83-point 3-colouring, R(4,6;3) >= 64 from a 63-point 2-colouring, and R(5,5;4) >= 36 from a 35-point 2-colouring. Each witness is given as a table over the orbits of an affine group and is regenerated from that table without a solver; each is verified by complete enumeration of all relevant subsets under a hash-bound run. An accompanying obstruction theorem shows that when an affine group has order C(p,2) and its multiplier subgroup omits -1, the action on unordered pairs is regular, so adjoining a fixed point forces every triple through that point into one colour; for the diagonal problem this is impossible once the base reaches or exceeds the Ramsey number in one fewer colour. Counterexamples at p = 13 and p = 37 show each hypothesis is necessary.",
+  "abstract": "Under the convention of the dynamic survey Small Ramsey Numbers that R is the least n forcing a monochromatic clique, a good colouring on n points proves R >= n+1. Three entries of section 7.1(a) are improved: R(4,4,4;3) >= 84 from an 83-point 3-colouring, R(4,6;3) >= 64 from a 63-point 2-colouring, and R(5,5;4) >= 36 from a 35-point 2-colouring. Each witness is given as a table over the orbits of an affine group and is regenerated from that table without a solver; each is verified by complete enumeration of all relevant subsets under a hash-bound run. An accompanying obstruction theorem shows that when an affine group has order C(p,2) and its multiplier subgroup omits -1, the action on unordered pairs is regular, so adjoining a fixed point forces every triple through that point into one colour; for the diagonal problem this is impossible once the base reaches or exceeds the Ramsey number in one fewer colour. The p = 13 and p = 37 fixed-point examples show that the order condition alone is insufficient when -1 is present; they do not by themselves establish independence of every condition in a broader generalisation.",
   "isBasedOn": {
     "@type": "SoftwareSourceCode",
     "codeRepository": "https://github.com/SeverinVisionary/hypergraph-ramsey-bounds",
@@ -171,24 +171,29 @@ under actions that are not free. Every construction regenerates its whole
 colouring from its table alone, with no solver.</p>
 
 <h2>Verification</h2>
-<p>All twelve deposited witnesses are checked by complete enumeration, each
-under its own hash-bound run. For the three headline objects that is
-<strong>1,837,620</strong> four-subsets at <code>n = 83</code>,
-<strong>324,632</strong> five-subsets at <code>n = 35</code>, and all four- and
-six-subsets of a 63-set. The <code>R(4,6;3)</code> check runs <strong>both ways
-round</strong>: the intended reading gives zero monochromatic cliques and the
-inverse reading gives 102,627, which is what makes the first number
-meaningful.</p>
+<p>All twelve deposited witnesses are checked against their stated candidate
+universes, each under its own hash-bound run. For the three headline objects
+those universes contain <strong>1,837,620</strong> four-subsets at
+<code>n = 83</code>, <strong>324,632</strong> five-subsets at <code>n = 35</code>,
+and <strong>595,665</strong> four-subsets plus <strong>67,945,521</strong>
+six-subsets at <code>n = 63</code>. The n=63 verifier uses prefix pruning, so
+these are candidate-universe sizes rather than loop-body visit counts. The
+<code>R(4,6;3)</code> check runs <strong>both ways round</strong>: the intended
+reading gives zero forbidden cliques, while the inverse reading gives 102,627
+colour-1 <code>K_4^(3)</code> subgraphs. That inverse count is a discriminating
+control against certain implementation failures, not a proof of the colour
+convention.</p>
 
-<p>Negative results carry certificates too: an independent RUP/RAT proof
+<p>Negative results carry certificates too: a separate RUP/RAT proof
 checker re-certifies five UNSAT symmetry classes of the <code>n = 63</code>
 tower, and its discriminating control weakens a real instance until it becomes
 satisfiable and requires the checker to refuse the original proof.</p>
 
 <h2>An obstruction theorem</h2>
-<p>If an affine group satisfies <code>|G| = C(p,2)</code> <strong>and</strong>
-its multiplier subgroup omits <code>-1</code> (equivalently
-<code>p &equiv; 3 mod 4</code>), it acts regularly on unordered pairs. Adjoining
+<p>If an affine group satisfies <code>|G| = C(p,2)</code> and its multiplier
+subgroup has index two and omits <code>-1</code> (equivalently, within that
+index-two family, <code>p &equiv; 3 mod 4</code>), it acts regularly on unordered
+pairs. Adjoining
 a fixed point then forces every triple through that point into a single orbit,
 and hence one colour; no base triple may take that colour, so for the diagonal
 problem the base must be coloured with <code>m-1</code> colours while avoiding a
@@ -197,10 +202,11 @@ once the base reaches or exceeds the <code>(m-1)</code>-colour Ramsey number.
 <strong>The threshold is a hypothesis, not a detail:</strong> at
 <code>m = 3</code> it is <code>R(4,4;3) = 13</code> and both towers clear it; at
 <code>m = 4</code> it is <code>R(4,4,4;3)</code> itself, and <code>p = 79</code>
-does not. Both group conditions are necessary too: for
-<code>p &equiv; 1 (mod 4)</code> the conclusion genuinely fails, and the
-corresponding classes are satisfiable at <code>p = 13</code> and
-<code>p = 37</code>.</p>
+does not. The order condition alone is insufficient when
+<code>p &equiv; 1 (mod 4)</code>: the corresponding fixed-point classes are
+satisfiable at <code>p = 13</code> and <code>p = 37</code>. These examples target
+the omitted-<code>-1</code> condition and do not by themselves establish
+independence of every condition in a broader generalisation.</p>
 
 <h2>What is not claimed</h2>
 <ul>
@@ -208,8 +214,9 @@ corresponding classes are satisfiable at <code>p = 13</code> and
 <em>personal communications</em> (2018 and 2021) that the bibliographic sources
 searched could not supply. Nothing stronger was found, but a newer unpublished
 communication is not excluded.</li>
-<li><strong>No upper bounds.</strong> The survey prints none for any of these
-cells, so these improvements do not narrow a stated gap.</li>
+<li><strong>No upper bound is established here.</strong> The survey does not
+display a two-sided interval for these cells, so these improvements do not
+close a bracket.</li>
 <li><strong>The incumbent constructions were not re-verified here.</strong>
 Their sizes and hashes were read from the public addendum.</li>
 <li><strong>Every negative result is a statement about a symmetry class</strong>,
@@ -222,8 +229,10 @@ open.</li>
 cd hypergraph-ramsey-bounds
 pip install -r requirements.txt
 bash reproduce.sh --full</pre>
-<p>The harness re-derives every claim above and refuses to report success for a
-step that produced no evidence.</p>
+<p>The full harness checks the listed construction, witness, obstruction and
+restricted-enumeration claims. It regenerates five selected UNSAT
+certifications; raw proof clauses are not included in this release. Literature
+comparisons and historical search summaries have separate evidence sources.</p>
 
 <footer>
 Code MIT; documentation, data and witnesses CC BY 4.0.

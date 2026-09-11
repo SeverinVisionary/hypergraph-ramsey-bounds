@@ -258,9 +258,10 @@ def pair_regular_fixed_point_obstruction(p, d, colours=3, s=4):
 
     1. `|G| = p*d = C(p,2)`, i.e. `d = (p-1)/2`, so `H` is the quadratic
        residues and the orbit count could be one; and
-    2. **`-1 not in H`**, equivalently **`p = 3 (mod 4)`**.
+    2. **`-1 not in H`**; within the index-two family in item 1, this is
+       equivalent to **`p = 3 (mod 4)`**.
 
-    Condition 2 is not decoration. The map `x -> -x + (a+b)` swaps `a` and `b`,
+    Why condition 2 matters: the map `x -> -x + (a+b)` swaps `a` and `b`,
     so it stabilises the pair `{a,b}`; it lies in `G` exactly when `-1 in H`.
     For `p = 1 (mod 4)`, `-1` IS a quadratic residue, every pair has a
     stabiliser of order 2, and there are **two** pair-orbits rather than one.

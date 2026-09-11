@@ -97,7 +97,9 @@ identical in a summary:
   and since removed larger construction is not excluded.
 - Some database queries were run through domain-restricted web search rather
   than the native interface, which is weaker coverage.
-- **The personal communications themselves are unobtainable.**
+- **The personal communications were not obtained through the retrieval
+  channels used here.** That is a search boundary, not a claim that they can
+  never be obtained.
 
 ## The honest verdict
 
@@ -113,8 +115,7 @@ sources searched here indexes.
 
 Two further cautions belong on the record. DS1's own next line, for a different
 cell, notes that its printed `163 <= R(5,5,5;3)` "can be much improved to 7570"
-— a printed DS1 value is not automatically the live record. And the searches
-here were cheap: several of the witnesses in this package were found in
-seconds. That is a reason to expect the cells have attracted little attention,
-not a demonstration that they were unexplored, and not a claim that anything
-difficult was done here.
+— a printed DS1 value is not automatically the live record. Runtime is not a
+novelty argument: a short local run can coexist with prior unpublished, poorly
+indexed or differently described work, so the priority limits above remain in
+force.

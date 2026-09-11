@@ -5,11 +5,11 @@ for the same reason: the deposit claimed every headline witness was checked by
 a verifier independent of the search, and shipped a hash-bound transcript for
 only one of them.
 
-Shares no code with multicolour.py, verify.py or construction.py. It rebuilds
-the triple -> colour map by zipping the stored colour vector against a freshly
-generated enumeration and then works with frozensets, so subset identity never
-depends on a rank formula -- the one error a producer and a checker that both
-compute ranks would make identically.
+It does not reuse the producer's rank arithmetic: it rebuilds the triple ->
+colour map by zipping the stored colour vector against a freshly generated
+enumeration and then works with frozensets. That reduces one class of
+implementation failure while leaving the stated serialization, witness
+specification and runtime assumptions shared.
 
 Four numbers must come out right, and any one wrong is a non-zero exit:
 
@@ -67,10 +67,8 @@ def main():
           f"{doc.get('ansatz')}")
     print(f"certifies    {doc.get('certifies')}")
 
-    # Printed is not checked: this wrapper scans a hard-coded three-colour
-    # R(4,4,4;3) reading, so a file declaring any other problem was displayed
-    # and then verified against something else entirely. The declaration has
-    # to agree with what is about to be checked, or it is decoration.
+    # The wrapper scans a hard-coded three-colour R(4,4,4;3) reading, so the
+    # declaration must agree with the target that is actually checked.
     WANT = {"sizes": [4, 4, 4], "k": 3}
     declared = {"sizes": doc.get("sizes"), "k": doc.get("k")}
     if declared != WANT:

@@ -3,8 +3,8 @@ hypothesis, produced rather than asserted.
 
 `THEOREMS.md` and `README.md` say that `Z_p : C_{(p-1)/2} + 1 fixed` is
 SATISFIABLE for `R(4,4,4;3)` at `p = 13` (n = 14) and `p = 37` (n = 38), and
-that is what makes the `-1 not in H` hypothesis necessary rather than
-decorative. An existential claim needs an object: this builds each class,
+that is why omitting the `-1 not in H` condition changes the conclusion.
+An existential claim needs an object: this builds each class,
 solves it, and re-verifies the model from scratch with `multicolour.verify`
 before reporting SAT.
 
@@ -12,7 +12,8 @@ before reporting SAT.
 
 Exits non-zero unless every class listed below is SAT and its colouring
 verifies, and unless each really does satisfy Theorem B's FIRST hypothesis
-(|G| = C(p,2)) while failing the second (-1 in H, equivalently p = 1 mod 4) --
+(|G| = C(p,2)) while failing the second (-1 in H; within the index-two family,
+equivalently p = 1 mod 4) --
 a "counterexample" that fails the hypothesis it is meant to satisfy would show
 nothing.
 """
