@@ -38,9 +38,10 @@ stopped — and `logs/enumerate_n83.log` is the run. The colouring published her
 is balanced; the class does not require it.
 
 **`R(4,6;3) >= 64`.** `H = <10,19,37,46,55> <= Z_63^*` of order 6, `G` of order
-378, **120 orbits** on the 39,711 triples of `Z_63`. The action is *not* free —
-orbit sizes 378, 189, 126, 63, 21 — so the colour classes are lopsided
-(14,070 / 25,641).
+378, **120 orbits** on the 39,711 triples of `Z_63`. The action is *not* free:
+its orbit sizes are 378, 189, 126, 63 and 21. The displayed orbit-colour
+assignment has colour-class sizes 14,070 and 25,641; these sizes are properties
+of that assignment, not consequences of nonfreeness.
 
 **`R(5,5;4) >= 36`.** `G = Hol(Z_34)` of order 544 acting on 35 points with one
 point fixed, **107 orbits** on the 52,360 four-subsets. Also not free (orbit
@@ -85,8 +86,8 @@ refuse it.
     ./reproduce.sh                     # constructions, witnesses, theorems
     ./reproduce.sh --full              # also the certificates and engines
 
-`reproduce.sh` writes a scratch file next to itself, so run it from a writable
-checkout.
+`reproduce.sh` creates its scratch directory under `${TMPDIR:-/tmp}` and removes
+it on exit.
 
 `reproduce.sh` covers the constructions, their agreement with the committed
 witnesses, the obstruction theorems and the certificates. It does not re-derive

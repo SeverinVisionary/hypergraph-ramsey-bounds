@@ -77,11 +77,14 @@ def test_the_K6_branch_is_forced_to_reject_something():
 
 
 def test_orbits_are_not_all_regular():
-    """The contrast with the 83-point object, worth pinning because it explains
-    why the colour classes are lopsided here and exactly equal there.
+    """Check the orbit-size contrast with the 83-point construction.
 
-    |G| = 378, but orbit sizes run 378, 189, 126, 63, 21: triples stabilised by
-    part of the multiplier subgroup have short orbits."""
+    Here |G| = 378 and the orbit sizes are 378, 189, 126, 63 and 21.
+    Short orbits arise from nontrivial setwise stabilisers in the full
+    affine group, not necessarily from pure multipliers. This test checks
+    orbit sizes; it does not assert that nonfreeness determines colour
+    balance or that freeness forces equal colour-class sizes.
+    """
     from collections import Counter
     chi = c63.rebuild()
     orbit_of = {}
