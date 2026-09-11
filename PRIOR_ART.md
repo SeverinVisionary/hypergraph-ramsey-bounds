@@ -107,11 +107,11 @@ identical in a summary:
 is what a search can establish. "No such source exists" is not, and is not
 claimed here.
 
-The single residual risk is the same for all three cells and was not reachable
-by any database searched here: **a newer personal communication to the survey's maintainer, not yet
-incorporated into DS1**. Both incumbents work directly in this area, and DS1
-records their bounds as personal communications -- a channel none of the
-sources searched here indexes.
+Unresolved priority risks include newer unpublished communications and published,
+poorly indexed, or differently described work not located by the searches recorded
+here. In particular, a communication to the survey's maintainer that has not yet
+been incorporated into DS1 would not be covered by these database searches. The
+present search record does not exclude these possibilities.
 
 Two further cautions belong on the record. DS1's own next line, for a different
 cell, notes that its printed `163 <= R(5,5,5;3)` "can be much improved to 7570"

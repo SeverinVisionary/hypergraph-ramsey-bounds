@@ -16,7 +16,7 @@ derived here.**
 DS1 notes of the last cell that it *"can be much improved to 7570 <= R(5,5,5;3)"*,
 so its printed value is not the live record and should not be treated as a target.
 
-## The two improvements
+## The constructions
 
 ### `R(4,4,4;3) >= 84`
 
@@ -52,9 +52,10 @@ four-subsets: 0 monochromatic in each colour. Colour classes 24,309 / 31,798 /
 `witness_444_3_n83.json` — on the 91,881 triples of an 83-set, and the cheapest
 of the five. Found under `Z_83 : C_41` (order 3403): 27 orbits x 3 colours = 81
 variables, 1,728 clauses, SAT in **under 0.05 s**. Verified by enumerating all
-**1,837,620** four-subsets: 0 monochromatic in each colour. The three colour
-classes are **exactly equal at 30,627 each**, which is the signature of an
-algebraic colouring. SHA-256
+**1,837,620** four-subsets: 0 monochromatic in each colour. The displayed assignment uses nine orbits per colour, giving three classes of
+30,627 triples. Freeness forces each class size to be a multiple of 3,403, not
+equality; the reported enumeration contains twelve balanced and twenty-four
+unbalanced invariant good colourings. SHA-256
 `a08602b488ec0f899412ce5cc31ec34a69c05995c1432fd74c04cae9467ecce2`.
 
 Under the DS1 convention a good colouring on 83 points gives `R(4,4,4;3) >= 84`,
@@ -146,8 +147,10 @@ variables in under a tenth of a second, which reads as a searched-and-empty
 class and is nothing of the kind. A singleton orbit-set bars its orbit from
 every colour at once while the exactly-one clause demands it take one, so the
 class is contradictory by construction. `multicolour.build_cnf` now reports
-`empty_by_construction`; such classes are not nulls and should not be counted
-as evidence about anything.
+`empty_by_construction`; such classes are excluded by a direct orbit obstruction
+before solver search. They should be recorded separately from solver-discovered
+UNSAT results; neither kind of exclusion establishes an unrestricted Ramsey upper
+bound.
 
 Solve times are not monotone in n and should not be read as difficulty: 0.0 s at
 n=79, 4,860 s at n=80, 71 s at n=81, 185 s at n=82 (each the `solve_s` field of
@@ -194,15 +197,15 @@ DS1 p. 102 expands it as a 2018 personal communication plus an online addendum
 to `[Dyb2]`, and `[Dyb2]` — the published Contributions to Discrete Mathematics
 article — was read in full and contains no result for `R(4,4,4;3)`.
 
-**The two cells differ in how far clearance can ever go.** `R(5,5;4)`'s
-incumbent is an invisible personal communication, so provisional is the ceiling.
-`R(4,4,4;3)`'s incumbent is **public**: the addendum at
-`inf.ug.edu.pl/ramsey/` links `r444_78.txt`, a 78-vertex construction, so the
-baseline can be verified first-hand and the one-vertex improvement demonstrated
-rather than asserted.
+The documented retrieval channels yielded public addendum files for the [Dyb3]
+comparisons but did not yield the [Ex24] incumbent construction. This is a
+difference in currently available evidence, not a permanent limit on clearance.
+Obtaining or verifying an incumbent construction would strengthen that comparison,
+but would not by itself establish the absence of other prior work.
 
-**Debt: that verification has not been run.** Until it is, our 79-point object
-is compared against a number we have read rather than an object we have checked.
+The [Dyb3] addendum includes a 78-vertex construction, so that baseline is
+available for later first-hand verification; that verification has not been run
+in this package.
 
 `R(5,5,5;3)` is a caution for exactly this reason: DS1's printed 163 is stale by
 DS1's own admission.
@@ -265,13 +268,12 @@ colour 1. Found under `Z_63 : <10,19,37,46,55>` (order 378): 120 orbit
 variables. Colour classes 14,070 / 25,641. SHA-256
 `998c2217a9c3e3cc1d2b082be2a5b9b8d9c30e1d2b62b1dfc1cc896bdbd754cd`.
 
-Verified by explicit nested loops with no repo imports, **both ways round**:
-under the intended reading (0 avoids `K_4`, 1 avoids `K_6`) there are zero
-monochromatic cliques of each kind, and under the inverse reading there are
-102,627 monochromatic `K_4`s in colour 1. The second number is the point — it
-shows the check discriminates rather than passing whatever it is handed. Read
-with the convention reversed, the same witness looks like a failure with 102,627
-violations, so the reading is not a detail.
+Verified by explicit nested loops with no repo imports. Under the intended
+convention, colour 0 contains no `K_4` and colour 1 contains no `K_6`; both
+counts are zero. The additional count of 102,627 colour-1 `K_4`s is a
+discriminating control against certain implementation failures; it does not
+establish the convention or validate the `K_6` branch. A separate six-vertex
+control colours all twenty triples 1 and requires `(bad4, bad6) == (0, 1)`.
 
 **These five classes are not the tower.** `groups63.json` holds five
 hand-picked classes, all under 64 variables, and every one is UNSAT — which is
@@ -314,10 +316,11 @@ and it is not "empty": five UNSAT classes are five nulls, not a statement about
 | `Z_63 : <4,10>` | 1134 | 50 | 54,877 | 22.2 s | 0.0 s | UNSAT |
 | `Z_63 : <2,31>` | 756 | 63 | 90,594 | 22.7 s | 0.1 s | UNSAT |
 
-**Five UNSAT classes are five nulls, not a result about `R(4,6;3)`.** The tower
-is five hand-built symmetry classes out of every colouring of the 39,711 triples
-of a 63-set; nothing here bears on the cell itself, and DS1's `>= 63` stands
-untouched.
+**Five UNSAT classes are five selected nulls, not a result about `R(4,6;3)`.**
+The tower is five hand-built symmetry classes out of every colouring of the
+39,711 triples of a 63-set; these five UNSAT results alone do not improve DS1's
+lower bound. The separate 63-point construction establishes
+`R(4,6;3) >= 64`.
 
 The collapse: the `s = 4` direction takes `C(63,4) = 595,665` four-sets down to
 **256** distinct positive clauses, a factor of 2,327 — the largest measured
@@ -381,9 +384,9 @@ linearly, so a proof cost O(deletions x clauses) — about 700 million
 comparisons on this instance. Certification took minutes per class and now
 takes seconds.
 
-**The control that makes this meaningful.** A checker taking the permissive
-reading could in principle accept anything, and small hand-built formulas would
-not reveal it. `negative_control.py` weakens a real n=63 instance by dropping a
+**A real-instance control for proof replay.** Small synthetic controls can expose
+an always-accepting checker. Replaying a real proof against weakened, satisfiable
+instances adds a domain-specific rejection test. `negative_control.py` weakens a real n=63 instance by dropping a
 random fraction of its clauses and re-certifies each one. It runs on
 `Z_63 : <2,11>`, which certifies by **proof replay** with 30,939 steps —
 deliberately not the class whose route is unit propagation with zero steps,
@@ -505,6 +508,7 @@ bitmask variant, timed side by side on the same input. No projected or sampled
 figures are claimed.
 
 The general point applies to
-every timing quoted anywhere in this package — **a wall-clock number from a
-loaded host is not a measurement** — and it is why the claims rest on the
-solver verdicts, which are load-independent, and never on the times.
+every timing quoted anywhere in this package — these are wall-clock measurements
+on a shared host. They should not be treated as machine-independent performance
+estimates or used for uncontrolled comparisons between encodings. The claims rest
+on the solver verdicts, which are load-independent, and never on the times.

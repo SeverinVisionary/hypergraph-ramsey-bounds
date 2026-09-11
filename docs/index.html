@@ -178,11 +178,13 @@ those universes contain <strong>1,837,620</strong> four-subsets at
 and <strong>595,665</strong> four-subsets plus <strong>67,945,521</strong>
 six-subsets at <code>n = 63</code>. The n=63 verifier uses prefix pruning, so
 these are candidate-universe sizes rather than loop-body visit counts. The
-<code>R(4,6;3)</code> check runs <strong>both ways round</strong>: the intended
-reading gives zero forbidden cliques, while the inverse reading gives 102,627
-colour-1 <code>K_4^(3)</code> subgraphs. That inverse count is a discriminating
-control against certain implementation failures, not a proof of the colour
-convention.</p>
+Under the intended convention, colour 0 contains no monochromatic <code>K_4^(3)</code>
+and colour 1 contains no monochromatic <code>K_6^(3)</code>. A separate reversed-
+<code>K_4</code> control counts 102,627 colour-1 <code>K_4^(3)</code> subgraphs.
+This is a discriminating control against certain implementation failures; it does
+not establish the colour convention or validate the <code>K_6</code> branch. A
+separate six-vertex control assigns colour 1 to all twenty triples and requires
+the <code>K_6</code> detector to report one violation.</p>
 
 <p>Negative results carry certificates too: a separate RUP/RAT proof
 checker re-certifies five UNSAT symmetry classes of the <code>n = 63</code>

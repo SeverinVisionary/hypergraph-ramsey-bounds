@@ -1,10 +1,14 @@
-"""Hash-bound, complete, two-way verification of the R(4,6;3) >= 64 witness.
+"""Hash-bound verification of the intended R(4,6;3) predicates, with a reversed-K4 control.
+
+The intended-reading scan is complete over the C(63,4) and C(63,6) candidate
+universes, with prefix pruning after a forbidden-colour partial set; the
+candidate-universe counts are not loop-body visit counts.
 
 Run:  python3 verify_witness_n63.py
 
-This wrapper binds the declared convention and witness vector to a complete
-two-way check. It is shipped so that the reader can rerun the stated checks
-against the exact witness bytes.
+This wrapper binds the declared convention and witness vector to the stated
+intended checks and reversed-K4 control. It is shipped so that the reader can
+rerun the checks against the exact witness bytes.
 
 Three numbers have to come out right, and any one of them wrong is a non-zero
 exit:
@@ -139,7 +143,8 @@ def main():
             print(f"  {p}", file=sys.stderr)
         return 1
 
-    print(f"\nOK: R(4,6;3) >= {n + 1}, complete enumeration, both readings.")
+    print(f"\nOK: R(4,6;3) >= {n + 1}; intended K4/K6 checks passed; "
+          "reversed-K4 control matched.")
     return 0
 
 
