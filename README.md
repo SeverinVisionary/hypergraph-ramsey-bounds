@@ -49,27 +49,38 @@ sizes 544, 272, 136).
 
 ## Verification
 
-Every one of the twelve deposited witnesses is verified by full enumeration,
-each under a hash-bound run kept in `logs/`, by a checker that shares no
-imports with the search code. Two different claims were run together here and
-they are not the same: *shares no search implementation* holds for every
-witness; *uses no `itertools`* holds for `verify_scratch.py`, which builds the
-face order and the clique scan from explicit nested loops and is applied to the
-four-uniform witness. The other checkers (`verify.py`, `independent_check.py`
-and the hash-bound `verify_witness_*` wrappers) do use
-`itertools.combinations` for their face indexing, which is why
-`verify_scratch.py` exists at all -- to derive the ordering convention a second
-time, by different means:
+Every one of the twelve deposited witnesses is verified by an explicit
+enumeration, each under a hash-bound run kept in `logs/`, by a checker with a
+different implementation from the search code. Different implementations
+reduce common implementation failure modes; they still rely on the stated
+serialization, runtime, and mathematical specification, so this is not a proof
+that common specification errors are impossible. Two different claims were run
+together here and they are not the same: each checker uses an implementation
+distinct from the search, while *uses no `itertools`* holds for
+`verify_scratch.py`, which builds the face order and the clique scan from
+explicit nested loops and is applied to the four-uniform witness. The other
+checkers (`verify.py`, `independent_check.py` and the hash-bound
+`verify_witness_*` wrappers) do use `itertools.combinations` for their face
+indexing, which is why `verify_scratch.py` exists at all -- to derive the
+ordering convention a second time by a different means:
 
-| cell | enumerated | monochromatic |
+| cell | candidate universe covered | monochromatic |
 |---|---:|---|
 | `R(4,4,4;3)` | 1,837,620 four-subsets | 0 in each of 3 colours |
-| `R(4,6;3)` | all 4- and 6-subsets | 0 and 0 |
+| `R(4,6;3)` | 595,665 four-subsets and 67,945,521 six-subsets; prefix-pruned | 0 and 0 |
 | `R(5,5;4)` | 324,632 five-subsets | 0 in each of 2 colours |
 
-The `R(4,6;3)` check is run **both ways round**: under the intended reading
-there are no monochromatic cliques, and under the inverse reading there are
-102,627. The second number is what makes the first meaningful.
+The `R(4,6;3)` verifier uses prefix pruning: its exhaustive check covers the
+complete four-subset and six-subset candidate universes, but it can exclude a
+candidate through an earlier prefix and therefore need not traverse every
+remaining extension. The numbers in the table are candidate-universe sizes,
+not claims about the number of loop-body visits. A separate six-point input
+with all 20 triples in colour 1 requires the `K_6` detector to reject it.
+Under the intended convention, colour 0 contains no monochromatic `K_4` and
+colour 1 contains no monochromatic `K_6`. A separate reversed-`K_4` control
+counts 102,627 monochromatic `K_4` subgraphs in colour 1. This control detects
+certain implementation failures; it does not establish the convention or
+validate the `K_6` branch.
 
 Negative results are checkable too, with one honest qualification.
 `drat_check.py` replays a solver's proof with its own propagation engine (RUP,

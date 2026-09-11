@@ -43,7 +43,12 @@ def test_the_theorem_holds():
 
 
 def test_perturbing_one_orbit_breaks_it():
-    """Every orbit must be load-bearing."""
+    """Changing the selected orbit's colour produces an invalid colouring.
+
+    This is a negative control for the verifier. It does not assert that every
+    orbit is indispensable or that sensitivity to every recolouring is required
+    for a valid construction.
+    """
     broken = dict(c63.TABLE)
     k = next(iter(broken))
     broken[k] = 1 - broken[k]
