@@ -16,10 +16,10 @@ the 83-point case the action is NOT free: its orbit sizes are 378, 189, 126,
 full affine group, which need not consist of pure multipliers. The displayed
 orbit-colour assignment gives colour-class sizes 14,070 and 25,641; these
 sizes are properties of this assignment, not consequences of nonfreeness
-alone. Regularity only forces each class to be a multiple of the orbit size,
-and enumerating all invariant good colourings of that class gives 36, of which
-twenty-four are unbalanced. See `construction.py`, which states the same
-correction.
+alone. For comparison, in the 83-point class of construction.py, freeness
+forces each colour-class size to be a multiple of 3403, not equality between
+classes. The enumeration reported there gives 36 invariant good colourings:
+twelve balanced and twenty-four unbalanced.
 
 TABLE below maps each orbit representative to its colour. Colour 0 avoids
 K_4^(3); colour 1 avoids K_6^(3).

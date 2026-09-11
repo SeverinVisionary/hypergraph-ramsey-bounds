@@ -1,20 +1,15 @@
-"""A third verifier that shares NO code and NO library with the producer.
+"""A direct-loop verifier for binary (5,5;4) witnesses.
 
-WHY A THIRD ONE.  `verify.py` and `independent_check.py` are two different
-algorithms, but both -- like `ansatz.py`, which produced the witness -- build
-their face indexing with `itertools.combinations`. That is a common mode: if
-the producer and every checker share a wrong understanding of what "the i-th
-4-subset in lexicographic order" means, they all agree and all are wrong, and
-the certificate is garbage that passes every test.
+This checker constructs the stipulated lexicographic ordering of four-subsets
+with explicit nested loops and scans every five-subset. It imports no
+repository modules and uses neither itertools nor the producer's rank
+formula.
 
-This file provides a reproducible independent check of that ordering.
-
-So: no itertools, no repo imports, no rank formula. The face ordering is built
-by four explicit nested loops incrementing a counter, which is the definition
-of lexicographic order rather than a library's implementation of it. The clique
-scan is five explicit nested loops. If this agrees with the other two, the
-ordering convention is not a shared assumption -- it has been derived twice by
-different means.
+Agreement with the other checkers cross-checks implementations of the face
+ordering and clique predicate. The checks still share the witness
+serialization and mathematical specification, and rely on the Python
+runtime and standard-library parsing. Agreement does not rule out a shared
+specification or runtime error.
 
     python3 verify_scratch.py witness_n35.json [...]
 """
