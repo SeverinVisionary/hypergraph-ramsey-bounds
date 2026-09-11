@@ -28,8 +28,9 @@ the 91,881 triples of `Z_83` with exactly **27 orbits, each free of size 3403**
 Twenty-seven numbers give the colours, nine per colour, so the three colour
 classes are exactly equal at 30,627.
 
-That equality is **not forced**. Regularity forces every colour class to be a
-multiple of 3403, which permits 8/9/10 as readily as 9/9/9. Enumerating all
+That equality is **not forced**. Each triple orbit has size 3403, so every
+invariant color class has size divisible by 3403; this does not force the color
+classes to have equal sizes. Enumerating all
 invariant good colourings of this class gives **36** of them: twelve split
 9/9/9 (30,627 each) and twenty-four split 8/9/10 (27,224 / 30,627 / 34,030).
 `enumerate_n83.py` is the enumeration — it blocks each model and re-solves until
@@ -147,8 +148,9 @@ classes that are not in fact excluded; the counterexamples are recorded in
   `>= 81`. The later climb to `>= 84` and the `R(4,6;3) >= 64` result are
   covered only by the broader database pass, which returned no stronger source
   but was not a per-claim search.
-- **No upper bounds.** DS1 prints none for any §7.1(a) cell, so these
-  improvements have no denominator and do not narrow a stated gap.
+- **No upper bound is established here.** DS1 revision 18 does not display a
+  two-sided interval for these cells. The constructions improve its displayed
+  lower bounds; they do not establish an upper bound or close a stated interval.
 - **The incumbent constructions have not been re-verified here.** For the two
   `[Dyb3]` cells, the public addendum's files were retrieved and their sizes,
   hashes and declared vertex counts read — but not checked to be valid

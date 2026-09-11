@@ -163,8 +163,9 @@ of order 3403. <code>G</code> acts on the 91,881 triples of
 3403</strong>; 27 numbers give the colours, nine per colour, so the three
 colour classes are equal at 30,627 each.</p>
 
-<p>That equality is <em>not</em> forced. Regularity forces each class to be a
-multiple of 3403, and enumerating every invariant good colouring of this class
+<p>That equality is <em>not</em> forced. Each triple orbit has size 3403, so every
+invariant color class has size divisible by 3403; this does not force the color
+classes to have equal sizes. Enumerating every invariant good colouring of this class
 gives <strong>36</strong> of them &mdash; twelve splitting 9/9/9 and
 twenty-four splitting 8/9/10. The other two witnesses use 120 and 107 orbits,
 under actions that are not free. Every construction regenerates its whole
@@ -177,8 +178,8 @@ those universes contain <strong>1,837,620</strong> four-subsets at
 <code>n = 83</code>, <strong>324,632</strong> five-subsets at <code>n = 35</code>,
 and <strong>595,665</strong> four-subsets plus <strong>67,945,521</strong>
 six-subsets at <code>n = 63</code>. The n=63 verifier uses prefix pruning, so
-these are candidate-universe sizes rather than loop-body visit counts. The
-Under the intended convention, colour 0 contains no monochromatic <code>K_4^(3)</code>
+these are candidate-universe sizes rather than loop-body visit counts. For this
+<code>n = 63</code> witness, colour 0 contains no monochromatic <code>K_4^(3)</code>,
 and colour 1 contains no monochromatic <code>K_6^(3)</code>. A separate reversed-
 <code>K_4</code> control counts 102,627 colour-1 <code>K_4^(3)</code> subgraphs.
 This is a discriminating control against certain implementation failures; it does

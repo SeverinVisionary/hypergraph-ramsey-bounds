@@ -63,8 +63,9 @@ def test_perturbing_one_orbit_breaks_it():
 def test_colour_classes_are_exactly_equal():
     """This particular colouring is balanced -- but the balance is NOT forced.
 
-    Regularity forces each class to be a multiple of |G| = 3403, which permits
-    8/9/10 as readily as 9/9/9; enumerating the class gives 36 invariant good
+    Each triple orbit has size 3403, so every invariant color class has size
+    divisible by 3403; this does not force the color classes to have equal sizes.
+    Enumerating the class gives 36 invariant good
     colourings, 12 balanced and 24 not. So this test pins a property of the
     published table, not a theorem about the class."""
     from collections import Counter
