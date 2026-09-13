@@ -1,5 +1,8 @@
 # Three improved lower bounds for hypergraph Ramsey numbers
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22698342.svg)](https://doi.org/10.5281/zenodo.22698342)
+· [landing page](https://severinvisionary.github.io/hypergraph-ramsey-bounds/)
+
 Explicit, machine-checkable colourings improving three entries of §7.1(a) of
 Radziszowski's dynamic survey *Small Ramsey Numbers* (DS1, revision #18,
 24 April 2026, [doi:10.37236/21](https://doi.org/10.37236/21)).
