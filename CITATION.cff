@@ -4,6 +4,15 @@ message: "If you use this software or its results, please cite it as below."
 type: software
 version: "1.0"
 date-released: "2026-09-10"
+doi: "10.5281/zenodo.22698342"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22698342"
+    description: "Version 1.0"
+  - type: doi
+    value: "10.5281/zenodo.22698341"
+    description: "All versions (concept DOI)"
+url: "https://severinvisionary.github.io/hypergraph-ramsey-bounds/"
 repository-code: "https://github.com/SeverinVisionary/hypergraph-ramsey-bounds"
 authors:
   - given-names: Hanyu
