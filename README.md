@@ -13,6 +13,11 @@ Radziszowski's dynamic survey *Small Ramsey Numbers* (DS1, revision #18,
 | `R(4,6;3)` | `>= 63` | **`>= 64`** | 63 points, 2 colours |
 | `R(5,5;4)` | `>= 35` | **`>= 36`** | 35 points, 2 colours |
 
+**Later work.** K. Özdemir (27 October 2026,
+[doi:10.5281/zenodo.23689461](https://doi.org/10.5281/zenodo.23689461)) reports
+`R(5,5;4) >= 49` from a `PSL(2,47)`-invariant colouring on 48 points. That
+supersedes the third row. It was not re-verified here.
+
 DS1's convention (p. 5): `R` is the **least** `n` forcing a monochromatic
 clique, so a good colouring on `n` points proves `R >= n+1`.
 
