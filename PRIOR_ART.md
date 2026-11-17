@@ -119,3 +119,15 @@ cell, notes that its printed `163 <= R(5,5,5;3)` "can be much improved to 7570"
 novelty argument: a short local run can coexist with prior unpublished, poorly
 indexed or differently described work, so the priority limits above remain in
 force.
+
+## After this release
+
+**`R(5,5;4)` is superseded.** K. Özdemir, *Lower bounds for the hypergraph Ramsey
+numbers R(5,5;4) and R(5,6;4) from PSL(2,q)-invariant colourings* (Zenodo,
+27 October 2026, [doi:10.5281/zenodo.23689461](https://doi.org/10.5281/zenodo.23689461)),
+reports `R(5,5;4) >= 49` on 48 points and `R(5,6;4) >= 159` on 158 points. The
+record cites this deposit's `>= 36` as the previous value. Only the record's
+description was read, on 17 November 2026; its colourings were not re-verified
+here.
+
+No new search was run for `R(4,4,4;3)` or `R(4,6;3)` after the release.
