@@ -1,6 +1,6 @@
 # Three improved lower bounds for hypergraph Ramsey numbers
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22698342.svg)](https://doi.org/10.5281/zenodo.22698342)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24301648.svg)](https://doi.org/10.5281/zenodo.24301648)
 · [landing page](https://severinvisionary.github.io/hypergraph-ramsey-bounds/)
 
 Explicit, machine-checkable colourings improving three entries of §7.1(a) of
